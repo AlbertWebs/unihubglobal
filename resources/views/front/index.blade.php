@@ -68,7 +68,7 @@
                     data-frame_1="e:power4.inOut;st:270;sp:900;sR:270;"
                     data-frame_999="o:0;st:w;sR:7930;"
                     style="z-index:9;background-color:#003a66;font-family:'Poppins';"
-                >Visa avenue
+                >Visa For All
                 </rs-layer>
 
             </rs-slide>
@@ -173,7 +173,7 @@
                     <!--section-title-->
                     <div class="section-title title-style-center_text style3">
                         <div class="title-header">
-                            <h2 class="title">We provide our experts to <br><span> Generate</span> great visa</h2>
+                            <h2 class="title">Lorem ipsum dolor sit   <br><span> amet</span> consectetur</h2>
                         </div>
                     </div><!--section-title end-->
                 </div>
@@ -183,7 +183,7 @@
     <!-- heading-section-end -->
 
     <!-- top-section -->
-    <section class="prt-row home02-top-section clearfix">
+    {{-- <section class="prt-row home02-top-section clearfix">
         <div class="container-fliud">
             <div class="row">
                 <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
@@ -272,7 +272,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- top-section-end -->
 
     <!-- service-section -->
@@ -296,10 +296,11 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="job-visa.html" tabindex="0">Job Visa</a></h3>
+                                    <h3><a href="job-visa.html" tabindex="0">Skilled Study Visa</a></h3>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>Visa that grants the holder authorization to accept work employment in a foreign countries…</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
                                 </div>
                             </div>
                         </div>
@@ -313,10 +314,11 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="business-visa.html" tabindex="0">Business Visa</a></h3>
+                                    <h3><a href="business-visa.html" tabindex="0">Undergraduate Study Visa</a></h3>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>Generally intended for individuals entering a country for the purposes of conducting business…</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
                                 </div>
                             </div>
                         </div>
@@ -333,7 +335,10 @@
                                     <h3><a href="student-visa.html" tabindex="0">Student Visas</a></h3>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>Generally intended for individuals entering a country for the purposes of conducting business…</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -350,7 +355,8 @@
                                     <h3><a href="free-visa.html" tabindex="0">Free Visa Enquiry</a></h3>
                                 </div>
                                 <div class="featured-desc">
-                                    <p>Visa that grants the holder authorization to accept work employment in a foreign countries…</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
                                 </div>
                             </div>
                         </div>
@@ -521,7 +527,7 @@
                                 </div>
                             </div>
                             <div class="testimonial-content">
-                                <blockquote class="testimonial-text">Keep up the good work Truvik and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
+                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
                             </div>
                         </div>
                     </div>
@@ -552,7 +558,7 @@
                                 </div>
                             </div>
                             <div class="testimonial-content">
-                                <blockquote class="testimonial-text">Travellers from countries categorized under the high-risk list who are eligible to enter Germany, aged 12 and older, are obliged to present certificates.</blockquote>
+                                <blockquote class="testimonial-text">Travellers from countries categorized under the high-risk list who are eligible to enter Portugal, aged 12 and older, are obliged to present certificates.</blockquote>
                             </div>
                         </div>
                     </div>
@@ -583,7 +589,7 @@
                                 </div>
                             </div>
                             <div class="testimonial-content">
-                                <blockquote class="testimonial-text">We have helps students business persons tourists clients with medical needs to acquire U.s visas. Besides we also help with other family and provide.</blockquote>
+                                <blockquote class="testimonial-text">We have helps students business persons tourists clients with medical needs to acquire UK visas. Besides we also help with other family and provide.</blockquote>
                             </div>
                         </div>
                     </div>
@@ -786,7 +792,7 @@
                         <!-- row title -->
                         <div class="row-title">
                             <div class="title-header">
-                                <h2><b>We Will</b> Help Us To You Move To <b>The Portugal.</b></h2>
+                                <h2><b>We Will</b> Help Us To You Move To <b>Portugal.</b></h2>
                                 <h3>Migrate To Portugal With Best Visa Consultants</h3>
                                 <p><span>Offers Validity From : </span><b>30,September 2023</b></p>
                             </div>

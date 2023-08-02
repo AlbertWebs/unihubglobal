@@ -50,8 +50,8 @@
                                         <div class="site-branding">
                                             <h1>
                                                 <a class="home-link" href="{{url('/')}}/" title="Truvik" rel="home">
-                                                    <img id="logo-img" class="img-left" src="#" alt="logo-img">
-                                                    <img id="logo-dark" class="img-center stickylogo" src="#" alt="logo-img">
+                                                    <img id="logo-img" class="img-left" src="{{url('/')}}/theme/images/logo-light.png" alt="UhG LOGO">
+                                                    <img id="logo-dark" class="img-center stickylogo" src="{{url('/')}}/theme/images/logo-dark-blend.png" alt="UhG LOGO">
                                                 </a>
                                             </h1>
                                         </div><!-- site-branding end -->
@@ -78,7 +78,7 @@
 
 
                                                 <li class="mega-menu-item">
-                                                    <a href="contact-us.html">Contact us</a>
+                                                    <a href="#">Contact us</a>
                                                 </li>
                                             </ul>
                                         </nav><!-- menu end -->
@@ -239,7 +239,7 @@
 
         <!-- back-to-top start -->
         <a id="totop" href="#top">
-            <i class="fa fa-angle-up"></i>
+            <i class="icon-angle-up"></i>
         </a>
         <!-- back-to-top end -->
 
