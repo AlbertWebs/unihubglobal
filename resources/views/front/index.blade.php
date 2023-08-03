@@ -186,9 +186,9 @@
                     </div><!--section-title-end -->
 
                     <div class="d-block d-sm-flex mt-30 res-991-mt-20">
-                        <div class="mr-30 res-575-mr-0">
+                        {{-- <div class="mr-30 res-575-mr-0">
                             <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-skincolor" href="services-1.html">Explore More</a>
-                        </div>
+                        </div> --}}
                         <div class="mr-30 res-575-mr-0">
                             <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book an appointment</a>
                         </div>
