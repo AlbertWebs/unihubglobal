@@ -162,6 +162,7 @@
 </rs-module-wrap>
 <!-- END REVOLUTION SLIDER -->
 
+
 <!-- site-main start -->
 <div class="site-main">
 
@@ -173,7 +174,7 @@
                     <!--section-title-->
                     <div class="section-title title-style-center_text style3">
                         <div class="title-header">
-                            <h2 class="title">Lorem ipsum dolor sit   <br><span> amet</span> consectetur</h2>
+                            <h2 class="title">Make your overseas dreams   <br><span> come</span> true!</h2>
                         </div>
                     </div><!--section-title end-->
                 </div>
