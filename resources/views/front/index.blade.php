@@ -166,25 +166,53 @@
 <!-- site-main start -->
 <div class="site-main">
 
-    <!-- heading-section -->
-    <section class="prt-row home02-heading-section bg-base-dark clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-7 col-sm-10 m-auto">
-                    <!--section-title-->
-                    <div class="section-title title-style-center_text style3">
+      <!--about-section-->
+    <section class="prt-row home03-welcome-section clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-12">
+                <div class="res-1199-mb-30">
+                    <!--section-title -->
+                    <div class="section-title">
                         <div class="title-header">
-                            <h2 class="title">Make your overseas dreams   <br><span> come</span> true!</h2>
+                            <h3>UHG HELPS YOU ACHIEVE YOUR DREAMS!</h3>
+                            <h2 class="title">Global Leaders in International <br><span>Education </span> services</h2>
                         </div>
-                    </div><!--section-title end-->
+                        <div class="title-desc">
+                            <p>
+                                Uni Hub Consultancy has been providing comprehensive support to students in achieving their global education aspirations for over a decade. Our range of services includes academic advisory, seamless university application, expedited one-week application process approval, diploma recognition, assistance with accommodation, guidance on residence permit applications, and dedicated support for settling in. At Uni Hub Consultancy, we take immense pride in representing prestigious universities and colleges in Europe and the USA, guaranteeing exceptional service and unwavering support for all our candidates.
+                            </p>
+                        </div>
+                    </div><!--section-title-end -->
+
+                    <div class="d-block d-sm-flex mt-30 res-991-mt-20">
+                        <div class="mr-30 res-575-mr-0">
+                            <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-skincolor" href="services-1.html">Explore More</a>
+                        </div>
+                        <div class="mr-30 res-575-mr-0">
+                            <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book an appointment</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="col-xl-6 col-lg-12">
+                <div class="col-bg-img-seven prt-bg prt-col-bgimage-yes col-bg-img-six">
+                    <div class="prt-col-wrapper-bg-layer prt-bg-layer"></div>
+                    <div class="layer-content"></div>
+                </div>
+                <img class="img-fluid prt-equal-height-image" style="border-radius:10px !important" src="{{asset('theme/images/bg-image/col-bgimage-7.png')}}" alt="Uni Hub Global">
+            </div>
         </div>
+    </div>
     </section>
+     <!--about-section end-->
+
+
     <!-- heading-section-end -->
+    <hr>
 
     <!-- top-section -->
-    {{-- <section class="prt-row home02-top-section clearfix">
+    <section class="prt-row home02-top-section clearfix">
         <div class="container-fliud">
             <div class="row">
                 <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
@@ -273,8 +301,99 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
     <!-- top-section-end -->
+
+       <!-- services-section -->
+       <section class="prt-row home03-services-section bg-base-dark clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--section-title -->
+                    <div class="section-title title-style-center_text">Popular International Destinations
+                        <div class="title-header">
+                            <h2 class="title">Popular <span>International</span> Destinations </h2>
+                        </div>
+                    </div><!--section-title-end -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="prt-tabs slider-tab">
+                        <ul class="tabs portfolio-filter text-center">
+                            <li class="tab active"><a href="#" data-filter="*">Student</a></li>
+                            <li class="tab"><a href="#" data-filter=".business">Direct Registration</a></li>
+                            <li class="tab"><a href="#" data-filter=".education">Migration</a></li>
+                            <li class="tab"><a href="#" data-filter=".immigration">Visa Services</a></li>
+                            <li class="tab"><a href="#" data-filter=".immigration">Placements</a></li>
+                        </ul>
+                        <div class="content-tab">
+                            <div class="row isotope-project">
+                                <div class="col-lg-4 col-md-6 project_item business immigration">
+                                    <!-- featured-imagebox -->
+                                    <div class="featured-imagebox featured-imagebox-tab">
+                                        <div class="featured-thumbnail">
+                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/tab/01.jpg')}}" alt="gallery-img">
+                                            <div class="featured-flag-box">
+                                                <span class="img-thumbnail flag-icon-fr flag-icon-squared"></span>
+                                            </div>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <h3><a href="france.html">France</a></h3>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>Millions of decisions about who has the right to visit or stay,apply to travel, study, work or immigrate citizenship or PR.</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-imagebox end-->
+                                </div>
+                                <div class="col-lg-4 col-md-6 project_item education immigration">
+                                    <!-- featured-imagebox -->
+                                    <div class="featured-imagebox featured-imagebox-tab">
+                                        <div class="featured-thumbnail">
+                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/tab/02.jpg')}}" alt="gallery-img">
+                                            <div class="featured-flag-box">
+                                                <span class="img-thumbnail flag-icon-gb-eng flag-icon-squared"></span>
+                                            </div>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <h3><a href="england.html">England</a></h3>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>We will help you with every step of the process of immigration,millions of decisions about who has the right to visit or stay.</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-imagebox end-->
+                                </div>
+                                <div class="col-lg-4 col-md-6 project_item business education">
+                                    <!-- featured-imagebox -->
+                                    <div class="featured-imagebox featured-imagebox-tab">
+                                        <div class="featured-thumbnail">
+                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/tab/03.jpg')}}" alt="gallery-img">
+                                            <div class="featured-flag-box">
+                                                <span class="img-thumbnail flag-icon-nz flag-icon-squared"></span>
+                                            </div>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <h3><a href="russia.html">New Zealand</a></h3>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-imagebox end-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services-section-end -->
 
     <!-- service-section -->
     <section class="prt-row home02-service-section bg-layer-equal-height clearfix">
@@ -284,8 +403,8 @@
                     <!-- section title -->
                     <div class="section-title style2 mb-15">
                         <div class="title-header">
-                            <h3>CHOOSE YOUR VISA</h3>
-                            <h2 class="title">Immigration<br> services from<br> <span>Experienced.</span></h2>
+                            <h3>UHG helps you achieve your dreams!</h3>
+                            <h2 class="title">Global Leaders in International<br> Education<br> <span> Services.</span></h2>
                         </div>
                     </div><!-- section title end -->
                 </div>

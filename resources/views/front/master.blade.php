@@ -28,6 +28,8 @@
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/responsive.css')}}">
 <!-- REVOLUTION LAYERS STYLES -->
 <link rel='stylesheet' id='rs-plugin-settings-css' href="{{asset('theme/revolution/css/rs6.css')}}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
@@ -74,10 +76,8 @@
                                         <!-- menu -->
                                         <nav class="main-menu menu-mobile" id="menu">
                                             <ul class="menu">
+
                                                 <li class="mega-menu-item active">
-                                                    <a href="#" class="mega-menu-link">Home</a>
-                                                </li>
-                                                <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">About Us</a>
                                                 </li>
                                                 <li class="mega-menu-item">
@@ -88,6 +88,19 @@
                                                 </li>
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Residency Services</a>
+                                                </li>
+                                                <li class="mega-menu-item">
+                                                    <a href="#" class="mega-menu-link">Countries</a>
+                                                    <ul class="mega-submenu">
+                                                        <li><a href="#">New Zeeland</a></li>
+                                                        <li><a href="#">Singapore</a></li>
+                                                        <li><a href="#">UAE</a></li>
+                                                        <li><a href="#">UK</a></li>
+                                                        <li><a href="#">Australia</a></li>
+                                                        <li><a href="#">Canada</a></li>
+                                                        <li><a href="#">India</a></li>
+                                                        <li><a href="#">Malta</a></li>
+                                                    </ul>
                                                 </li>
 
 
