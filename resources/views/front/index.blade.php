@@ -34,7 +34,7 @@
                     data-frame_1="e:power4.inOut;st:270;sp:800;sR:270;"
                     data-frame_999="o:0;st:w;sR:7930;"
                     style="z-index:10;font-family:'Playfair Display';font-style:italic;"
-                >Keeps the <span class="text-base-skin">visa</span> a<br> spirants informed<br> and updated
+                >Study in <span class="text-base-skin">Abroad</span> <br> Universities<br>
                 </rs-layer>
 
                 <a
@@ -52,7 +52,7 @@
                     data-frame_999="o:0;st:w;sR:7910;"
                     data-frame_hover="c:#fff;bgc:#003760;boc:#003760;bor:50px,50px,50px,50px;bos:solid;bow:2px,2px,2px,2px;e:default;"
                     style="z-index:11;background-color:#e23861;font-family:'Poppins';"
-                >Apply Visa Today
+                ><span class="fa fa-calendar"></span> &nbsp; Book an Appointment
                 </a>
 
 
@@ -68,7 +68,7 @@
                     data-frame_1="e:power4.inOut;st:270;sp:900;sR:270;"
                     data-frame_999="o:0;st:w;sR:7930;"
                     style="z-index:9;background-color:#003a66;font-family:'Poppins';"
-                >Visa For All
+                >Unihub Global
                 </rs-layer>
 
             </rs-slide>
@@ -116,7 +116,7 @@
                     data-frame_1="e:power4.inOut;st:270;sp:800;sR:270;"
                     data-frame_999="o:0;st:w;sR:7930;"
                     style="z-index:12;font-family:'Poppins';"
-                >We help investors and entrepreneurs secure citizenship
+                >We help students achieve their career dreams by making<br> it easy for them to study abroad
                 </rs-layer>
 
                 <a
@@ -134,7 +134,7 @@
                     data-frame_999="o:0;st:w;sR:7910;"
                     data-frame_hover="c:#fff;bgc:#003760;boc:#003760;bor:50px,50px,50px,50px;bos:solid;bow:2px,2px,2px,2px;e:default;"
                     style="z-index:11;background-color:#e23861;font-family:'Poppins';"
-                >Apply Visa Today
+                ><span class="fa fa-calendar"></span> &nbsp;Book an Appointment
                 </a>
 
                 <a
@@ -144,7 +144,7 @@
                     data-type="text"
                     data-color="#003760"
                     data-rsp_ch="on"
-                    data-xy="x:r,r,c,c;xo:225px,225px,0,0;y:m;yo:200px,200px,133px,100px;"
+                    data-xy="x:r,r,c,c;xo:285px,225px,0,0;y:m;yo:200px,200px,133px,100px;"
                     data-text="w:normal;s:14,14,14,13;l:25,25,18,13;fw:600;"
                     data-vbility="t,t,t,f"
                     data-padding="t:8,8,10,9;r:30,30,30,25;b:8,8,10,9;l:30,30,30,25;"
@@ -200,7 +200,7 @@
                     <div class="prt-col-wrapper-bg-layer prt-bg-layer"></div>
                     <div class="layer-content"></div>
                 </div>
-                <img class="img-fluid prt-equal-height-image" style="border-radius:10px !important" src="{{asset('theme/images/bg-image/col-bgimage-7.png')}}" alt="Uni Hub Global">
+                <img class="img-fluid prt-equal-height-image" style="border-radius:10px !important" src="{{asset('theme/images/New-Blog-Post-Webinar-850x560.png')}}" alt="UniHub Global">
             </div>
         </div>
     </div>
@@ -310,7 +310,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <!--section-title -->
-                    <div class="section-title title-style-center_text">Popular International Destinations
+                    <div class="section-title title-style-center_text">
                         <div class="title-header">
                             <h2 class="title">Popular <span>International</span> Destinations </h2>
                         </div>
@@ -388,12 +388,34 @@
                                 </div>
                             </div>
                         </div>
+                        <br><br>
+                        <div class="mr-30 res-575-mr-0 text-center">
+                            <a style="border:2px solid #ffffff" class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-map-marker"></span> &nbsp; Explore More Countries</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- services-section-end -->
+
+    <section class="prt-row home02-service-section bg-layer-equal-height clearfix">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-12 text-center">
+
+                    <h2 class="txt-primary mb-4">Explore studying abroad with expert guidance. Book a consultation to unlock your international education opportunities.</h2>
+
+                    <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book an appointment</a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 
     <!-- service-section -->
     <section class="prt-row home02-service-section bg-layer-equal-height clearfix">
@@ -416,7 +438,7 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="job-visa.html" tabindex="0">Skilled Study Visa</a></h3>
+                                    <h3><a href="job-visa.html" tabindex="0">Skill-Based Courses</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -434,7 +456,7 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="business-visa.html" tabindex="0">Undergraduate Study Visa</a></h3>
+                                    <h3><a href="business-visa.html" tabindex="0">Undergraduate</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -452,7 +474,7 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="student-visa.html" tabindex="0">Student Visas</a></h3>
+                                    <h3><a href="student-visa.html" tabindex="0">Post Graduate</a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>
@@ -472,7 +494,7 @@
                             </div>
                             <div class="featured-content">
                                 <div class="featured-title">
-                                    <h3><a href="free-visa.html" tabindex="0">Free Visa Enquiry</a></h3>
+                                    <h3><a href="free-visa.html" tabindex="0">Research </a></h3>
                                 </div>
                                 <div class="featured-desc">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -529,51 +551,14 @@
                 <div class="col-lg-12">
                     <!-- section title -->
                     <div class="section-title title-style-center_text style5">
+                        <h4>Here’s how</h4>
                         <div class="title-header">
-                            <h2 class="title">Your visa sorted in just 4 super <br>simple <span>Steps</span></h2>
+                            <h2 class="title">Unihub Global helps you achieve <br>your <span> dreams!</span></h2>
                         </div>
                     </div><!-- section title end -->
                 </div>
             </div>
             <div class="row mt_15">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-procedure">
-                        <div class="image-procedure">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid auto_size" width="210" height="210" src="{{asset('theme/images/process-1.jpg')}}" alt="image">
-                                <div class="process-num"><span class="number"></span></div>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3>Complete Online Form</h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>Collaborate with team & partners. Get your work over the finish line.</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-procedure">
-                        <div class="image-procedure">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid auto_size" width="210" height="210" src="{{asset('theme/images/process-2.png')}}" alt="image">
-                                <div class="process-num"><span class="number"></span></div>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3>Documents & Payments</h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>Any nonimmigrant visa applicant can pay their visa application.</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <!-- featured-imagebox -->
                     <div class="featured-imagebox featured-imagebox-procedure">
@@ -585,10 +570,10 @@
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3>Direct Interview</h3>
+                                <h3>Free Expert Counselling Service</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>Questions are specific questions that directly relate to the positions.</p>
+                                <p>As the best study abroad consultancy in Kerala, MWT Education Consultancy has over two decades of experience in counselling, and can guide you toward a wonderful future abroad. We help you understand your study goals and career aspirations.</p>
                             </div>
                         </div>
                     </div><!-- featured-imagebox end-->
@@ -604,10 +589,48 @@
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
-                                <h3>Receive Visa</h3>
+                                <h3>Identify Course, Country & University</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>Compare visas to visit, work, study or join a family member already</p>
+                                <p>Which is the study program that’s the best fit for your capabilities and interests? Which are the best Universities offering this course, and which country should you be studying it in? MWT Consultancy’s experts will help you figure it out.</p>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox end-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <!-- featured-imagebox -->
+                    <div class="featured-imagebox featured-imagebox-procedure">
+                        <div class="image-procedure">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid auto_size" width="210" height="210" src="{{asset('theme/images/process-2.png')}}" alt="image">
+                                <div class="process-num"><span class="number"></span></div>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3>Application process</h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>Student applications can be a harrowing process—but not if you have MWT Education Consultancy on your side! Our experts help you write compelling essays and error-free applications and send in perfect documents, well on time.</p>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox end-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <!-- featured-imagebox -->
+                    <div class="featured-imagebox featured-imagebox-procedure">
+                        <div class="image-procedure">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid auto_size" width="210" height="210" src="{{asset('theme/images/process-1.jpg')}}" alt="image">
+                                <div class="process-num"><span class="number"></span></div>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3>Visa application assistance</h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>Which visa is the right one for your particular situation, and how can you ensure visa success? The MWT Education Consultancy team promises over 96% visa success, which means that your visa application is in good hands!</p>
                             </div>
                         </div>
                     </div><!-- featured-imagebox end-->
@@ -769,7 +792,7 @@
                                                 <h4 class="prt-fid-inner">
                                                     <span   data-appear-animation="animateDigits"
                                                             data-from="0"
-                                                            data-to="25"
+                                                            data-to="252"
                                                             data-interval="5"
                                                             data-before=""
                                                             data-before-style="sup"
@@ -779,7 +802,7 @@
                                                     </span>
                                                 </h4>
                                             </div>
-                                            <h3 class="prt-fid-title">Countries Covered</h3>
+                                            <h3 class="prt-fid-title">Courses</h3>
                                         </div><!-- prt-fid end -->
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-6">
@@ -850,51 +873,21 @@
                                                     <span class="fid-prefix">+</span>
                                                 </h4>
                                             </div>
-                                            <h3 class="prt-fid-title">Satisfied Clients</h3>
+                                            <h3 class="prt-fid-title">Countries</h3>
                                         </div><!-- prt-fid end -->
-                                    </div>
-                                </div>
-                                <div class="row mt-75 res-991-mt-30">
-                                    <div class="col-lg-7">
-                                        <div class="">
-                                            <!--section-title -->
-                                            <div class="section-title">
-                                                <div class="title-header">
-                                                    <h3>Why Choose Us</h3>
-                                                    <h2 class="title">We are the  <br>from <span>best.</span>at what we do</h2>
-                                                </div>
-                                                <div class="title-desc">
-                                                    <p>
-                                                        Uni Hub Consultancy has been providing comprehensive support to students in achieving their global education aspirations for
-                                                        over a decade. Our range of services includes academic advisory, seamless university application, expedited one-week application
-                                                        process approval, diploma recognition, assistance with accommodation, guidance on residence permit applications, and dedicated
-                                                        support for settling in. At Uni Hub Consultancy, we take immense pride in representing prestigious universities and colleges in
-                                                        Europe and the USA, guaranteeing exceptional service and unwavering support for all our candidates.
-                                                    </p>
-                                                </div>
-                                            </div><!--section-title-end -->
-
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-5 res-991-mt-30 res-991-mb-30">
-                                        <div class="prt-bg prt-col-bgimage-yes col-bg-img-five">
-                                            <div class="prt-col-wrapper-bg-layer prt-bg-layer"></div>
-                                            <div class="layer-content"></div>
-                                        </div>
-                                        <img class="img-fluid prt-equal-height-image" src="{{asset('theme/images/bg-image/col-bgimage-5.png')}}" alt="col-bgimage-5.png')}}">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                {{-- <div class="col-lg-3">
                     <div class="prt-bg prt-col-bgimage-yes col-bg-img-six spacing-12">
                         <div class="prt-col-wrapper-bg-layer prt-bg-layer"></div>
                         <div class="layer-content"></div>
                     </div>
                     <img class="img-fluid prt-equal-height-image" src="{{asset('theme/images/bg-image/col-bgimage-6.png')}}" alt="col-bgimage-6.png')}}">
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -909,17 +902,16 @@
                 </div>
                 <div class="col-lg-6 align-self-center ">
                     <div class="pb-10 res-991-pb-0 res-991-mt-30 ml_15 res-991-ml-0">
+
                         <!-- row title -->
                         <div class="row-title">
                             <div class="title-header">
-                                <h2><b>We Will</b> Help Us To You Move To <b>Portugal.</b></h2>
-                                <h3>Migrate To Portugal With Best Visa Consultants</h3>
-                                <p><span>Offers Validity From : </span><b>30,September 2023</b></p>
+                                <h2><b>Studying abroad</b> is always exciting, but you may be confused about how to take the first step.</h2>
                             </div>
                         </div><!-- row title end -->
                         <div class="d-block d-sm-flex mt-45 res-991-mt-30">
                             <div class="mr-30">
-                                <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="contact-us.html"> Apply Visa Now! </a>
+                                <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp;   Book an appointment</a>
                             </div>
                             <div class="featured-icon-box contact-logo">
                                 <div class="prt-icon-type-image">
@@ -981,116 +973,176 @@
     </div>
     <!-- client-section-end -->
 
-    <!-- team-section -->
-    <section class="prt-row home02-team-section clearfix">
+    <!-- blog-section -->
+    <section class="prt-row home03-blog-section clearfix">
         <div class="container">
             <div class="row">
-                <!-- section title -->
-                <div class="section-title title-style-center_text">
-                    <div class="title-header">
-                        <h2 class="title">Meet our <span>Dedicated Team!</span></h2>
-                    </div>
-                </div><!-- section title end -->
+                <div class="col-lg-12">
+                    <!--section-title -->
+                    <div class="section-title title-style-center_text style5">
+                        <div class="title-header">
+                            <h2 class="title">Latest<span>News</span></h2>
+                        </div>
+                    </div><!--section-title-end -->
+                </div>
             </div>
-            <div class="row slick_slider" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "arrows":false, "dots":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":1024,"settings":{"slidesToShow": 3}} , {"breakpoint":991,"settings":{"slidesToShow": 2}}, {"breakpoint":575,"settings":{"slidesToShow": 1}}]}'>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <!-- featured-imagebox-team -->
-                    <div class="featured-imagebox featured-imagebox-team style1">
-                        <div class="featured-imagebox-inner">
-                            <div class="featured-thumbnail">
-                                <img width="500" height="500" class="img-fluid" src="{{asset('theme/images/team-member/03.jpg')}}" alt="image">
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="#">Farhanah Ebrahim </a></h3>
-                                     <span class="team-position">Director</span>
-                                </div>
-                                <div class="prt-media-link">
-                                    <div class="prt-link-mail">
-                                        <a href="mailto:farhanahebrahim11@gmail.com"><i class="icon-mail"></i></a>
-                                    </div>
-                                    <div class="media-block">
-                                        <div class="media-btn">
-                                            <i class="icon-share"></i>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="featured-imagebox featured-imagebox-blog style3">
+                        <div class="row g-0 row-equal-height">
+                            <div class="col-sm-5">
+                                <div class="prt-bg prt-col-bgimage-yes col-bg-img-ten spacing-8">
+                                    <div class="prt-col-wrapper-bg-layer prt-bg-layer"></div>
+                                    <div class="layer-content">
+                                        <div class="prt-box-post-date">
+                                            <span>15</span>
+                                            <label>Aug</label>
                                         </div>
-                                        <ul class="social-icons list-inline d-flex">
-                                            <li class="social-facebook"><a href="https://www.facebook.com/cymolthemes.191219"><i class="icon-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="https://www.instagram.com/cymol_themes/"><i class="icon-instagram"></i></a></li>
-                                            <li class="social-pinterest"><a href="https://in.pinterest.com/cymolthemes/"><i class="icon-pinterest"></i></a></li>
-                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="featured-content">
+                                    <div class="post-meta">
+                                        <a href="blog.html">
+                                            <span>Albert</span>
+                                        </a>
+                                        <a href="blog.html">
+                                            <span>0 comments</span>
+                                        </a>
+                                    </div>
+                                    <div class="featured-title">
+                                        <h3><a href="#">What is the cost of studying in popular study-abroad destinations for an international student?</a></h3>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <p>One of your most frequently asked questions, and one that demands well-researched and accurate answers, is the cost of studying abroad in your dream destination. From the bustling streets of Manhattan to the rolling meadows of Ireland, as attractive as these places are, they are only worth the investment if you plan your finances carefully.</p>
+                                    </div>
+                                    <div class="featured-bottom">
+                                        <a class="prt-btn btn-inline prt-btn-size-md prt-icon-btn-right" href="#">View More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div><!-- featured-imagebox-team end-->
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <!-- featured-imagebox-team -->
-                    <div class="featured-imagebox featured-imagebox-team style1">
-                        <div class="featured-imagebox-inner">
-                            <div class="featured-thumbnail">
-                                <img width="500" height="500" class="img-fluid" src="{{asset('theme/images/team-member/03.jpg')}}" alt="image">
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="#">Marlene Dosreis</a></h3>
-                                     <span class="team-position">Director</span>
-                                </div>
-                                <div class="prt-media-link">
-                                    <div class="prt-link-mail">
-                                        <a href="mailto:marlenedosreis0@gmail.com"><i class="icon-mail"></i></a>
-                                    </div>
-                                    <div class="media-block">
-                                        <div class="media-btn">
-                                            <i class="icon-share"></i>
+                <div class="col-md-6">
+                    <div class="featured-imagebox featured-imagebox-blog style3">
+                        <div class="row g-0 row-equal-height">
+                            <div class="col-sm-5">
+                                <div class="prt-bg prt-col-bgimage-yes col-bg-img-eleven spacing-8">
+                                    <div class="prt-col-wrapper-bg-layer prt-bg-layer"></div>
+                                    <div class="layer-content">
+                                        <div class="prt-box-post-date">
+                                            <span>14</span>
+                                            <label>Jul</label>
                                         </div>
-                                        <ul class="social-icons list-inline d-flex">
-                                            <li class="social-facebook"><a href="https://www.facebook.com/cymolthemes.191219"><i class="icon-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="https://www.instagram.com/cymol_themes/"><i class="icon-instagram"></i></a></li>
-                                            <li class="social-pinterest"><a href="https://in.pinterest.com/cymolthemes/"><i class="icon-pinterest"></i></a></li>
-                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="featured-content">
+                                    <div class="post-meta">
+                                        <a href="blog.html">
+                                            <span>Albert</span>
+                                        </a>
+                                        <a href="blog.html">
+                                            <span>0 comments</span>
+                                        </a>
+                                    </div>
+                                    <div class="featured-title">
+                                        <h3><a href="#">How Can You Find Student Accommodation in Canada as an International Student?</a></h3>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <p>For most international students, finding accommodation in Canada proves to be one of the toughest tasks they have to do. International students intending to study in Canada have numerous possibilities to choose from. </p>
+                                    </div>
+                                    <div class="featured-bottom">
+                                        <a class="prt-btn btn-inline prt-btn-size-md prt-icon-btn-right" href="#">View More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div><!-- featured-imagebox-team end-->
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <!-- featured-imagebox-team -->
-                    <div class="featured-imagebox featured-imagebox-team style1">
-                        <div class="featured-imagebox-inner">
-                            <div class="featured-thumbnail">
-                                <img width="500" height="500" class="img-fluid" src="{{asset('theme/images/team-member/03.jpg')}}" alt="image">
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="#">Melika Fonals</a></h3>
-                                     <span class="team-position">Agent</span>
-                                </div>
-                                <div class="prt-media-link">
-                                    <div class="prt-link-mail">
-                                        <a href="mailto:farhanahebrahim11@gmail.com"><i class="icon-mail"></i></a>
-                                    </div>
-                                    <div class="media-block">
-                                        <div class="media-btn">
-                                            <i class="icon-share"></i>
+                <div class="col-md-6">
+                    <div class="featured-imagebox featured-imagebox-blog style3">
+                        <div class="row g-0 row-equal-height">
+                            <div class="col-sm-5">
+                                <div class="prt-bg prt-col-bgimage-yes col-bg-img-twelve spacing-8">
+                                    <div class="prt-col-wrapper-bg-layer prt-bg-layer"></div>
+                                    <div class="layer-content">
+                                        <div class="prt-box-post-date">
+                                            <span>8</span>
+                                            <label>Jun</label>
                                         </div>
-                                        <ul class="social-icons list-inline d-flex">
-                                            <li class="social-facebook"><a href="https://www.facebook.com/cymolthemes.191219"><i class="icon-facebook"></i></a></li>
-                                            <li class="social-instagram"><a href="https://www.instagram.com/cymol_themes/"><i class="icon-instagram"></i></a></li>
-                                            <li class="social-pinterest"><a href="https://in.pinterest.com/cymolthemes/"><i class="icon-pinterest"></i></a></li>
-                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="featured-content">
+                                    <div class="post-meta">
+                                        <a href="blog.html">
+                                            <span>Albert</span>
+                                        </a>
+                                        <a href="blog.html">
+                                            <span>0 comments</span>
+                                        </a>
+                                    </div>
+                                    <div class="featured-title">
+                                        <h3><a href="#">All You Need to Know about the Canadian Student Visa Documentation Checklist</a></h3>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <p>Canada has become an increasingly popular destination for international students in recent years. It is a dream study abroad destination for thousands of students and immigrants. However, a Canadian student visa is one of several hurdles that students must overcome before travelling.</p>
+                                    </div>
+                                    <div class="featured-bottom">
+                                        <a class="prt-btn btn-inline prt-btn-size-md prt-icon-btn-right" href="#">View More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div><!-- featured-imagebox-team end-->
+                    </div>
                 </div>
-
+                <div class="col-md-6">
+                    <div class="featured-imagebox featured-imagebox-blog style3">
+                        <div class="row g-0 row-equal-height">
+                            <div class="col-sm-5">
+                                <div class="prt-bg prt-col-bgimage-yes col-bg-img-thirteen spacing-8">
+                                    <div class="prt-col-wrapper-bg-layer prt-bg-layer"></div>
+                                    <div class="layer-content">
+                                        <div class="prt-box-post-date">
+                                            <span>23</span>
+                                            <label>May</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="featured-content">
+                                    <div class="post-meta">
+                                        <a href="blog.html">
+                                            <span>Albert</span>
+                                        </a>
+                                        <a href="blog.html">
+                                            <span>0 comments</span>
+                                        </a>
+                                    </div>
+                                    <div class="featured-title">
+                                        <h3><a href="#">How Can You Build a Student Profile on LinkedIn as an International Student?</a></h3>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <p>LinkedIn has been a go-to for professionals across the globe to network with each other ever since it emerged as a major social media platform. Assuming that it may not be for them however, numerous students generally do not get on to the platform. They choose to wait till they have complete their graduation in order to create their profiles.</p>
+                                    </div>
+                                    <div class="featured-bottom">
+                                        <a class="prt-btn btn-inline prt-btn-size-md prt-icon-btn-right" href="#">View More<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- team-section-end -->
+    <!-- blog-section-end -->
 
 </div><!-- site-main end-->
 @endsection
