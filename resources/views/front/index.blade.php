@@ -33,7 +33,7 @@
                     data-frame_0="y:100%;"
                     data-frame_1="e:power4.inOut;st:270;sp:800;sR:270;"
                     data-frame_999="o:0;st:w;sR:7930;"
-                    style="z-index:10;font-family:'Playfair Display';font-style:italic;"
+                    style="z-index:10;font-family:'Playfair Display';"
                 >Study in <span class="text-base-skin">Abroad</span> <br> Universities<br>
                 </rs-layer>
 
@@ -87,7 +87,7 @@
                     data-frame_0="y:100%;"
                     data-frame_1="e:power4.inOut;st:270;sp:800;sR:270;"
                     data-frame_999="o:0;st:w;sR:7930;"
-                    style="z-index:9;font-family:'Playfair Display';font-style:italic;"
+                    style="z-index:9;font-family:'Playfair Display';"
                 >Foundation was<br><span class="text-base-skin">Established</span> with a small<br>idea that was incepted in
                 </rs-layer>
 

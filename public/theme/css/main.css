@@ -2117,7 +2117,7 @@ nav.main-menu ul.menu > li.mega-menu-item:hover > a {
 
 .slide-text {
     font-family: var(--base-headingfont-main);
-    font-style: italic;
+
     font-weight: 600;
     display: inline-block;
 }
@@ -2412,7 +2412,7 @@ p.firstcharacter::first-letter {
     color: var(--base-dark);
     display: block;
     position: relative;
-    font-style: italic;
+
     font-size: 16px;
     font-weight: 500;
     padding: 77px 30px 28px 30px;
@@ -2525,7 +2525,7 @@ p.firstcharacter::first-letter {
 }
 
 .comments-area p { margin-bottom: 20px; }
-p.comment-notes { margin-bottom: 10px; font-style: italic; }
+p.comment-notes { margin-bottom: 10px;  }
 p.form-submit { margin-bottom:0px }
 
 .comment-form textarea, .comment-form input[type="text"],
@@ -2566,7 +2566,7 @@ section.error-404 {
 }
 section.error-404 .page-content h2 { font-size:110px; line-height:124px; font-weight:600; margin-bottom: 0;}
 section.error-404 .page-content h3 { font-size:32px; line-height:42px; font-weight:700; }
-section.error-404 .page-content h3 span { font-style: italic; color:var(--base-skin); font-family: var(--base-headingfont-main);}
+section.error-404 .page-content h3 span {  color:var(--base-skin); font-family: var(--base-headingfont-main);}
 section.error-404 .page-content p { margin-bottom: 32px; }
 section.error-404 .prt-404-img { margin-bottom: 35px; }
 

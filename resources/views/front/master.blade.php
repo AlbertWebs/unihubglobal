@@ -136,7 +136,7 @@
                                                         <i class="flaticon-phone-call"></i>
                                                     </div>
                                                     <div class="widget_content">
-                                                        <h3 class="widget_title">Visa & Immigration</h3>
+                                                        <h3 class="widget_title">Free Consultation</h3>
                                                         <p><a href="tel:1234567890">+351 931 371 105</a></p>
                                                     </div>
                                                 </div>
