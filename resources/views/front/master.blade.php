@@ -65,9 +65,9 @@
                                         <!-- site-branding -->
                                         <div class="site-branding">
                                             <h1>
-                                                <a class="home-link" href="{{url('/')}}/" title="Truvik" rel="home">
-                                                    <img id="logo-img" class="img-left" src="{{url('/')}}/theme/images/logo-light.pngs" alt="UhG LOGO">
-                                                    <img id="logo-dark" class="img-center stickylogo" src="{{url('/')}}/theme/images/logo-dark-blend.pngs" alt="UhG LOGO">
+                                                <a class="home-link" href="{{url('/')}}/" title="Unihub Global" rel="home">
+                                                    <img id="logo-img" class="img-left" src="{{url('/')}}/theme/images/logo-light.png" alt="UhG LOGO">
+                                                    <img id="logo-dark" class="img-center stickylogo" src="{{url('/')}}/theme/images/logo-light.png" alt="UhG LOGO">
                                                 </a>
                                             </h1>
                                         </div><!-- site-branding end -->
