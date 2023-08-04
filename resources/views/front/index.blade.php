@@ -6,73 +6,6 @@
     <rs-module id="rev_slider_2_1" style="" data-version="6.5.9">
         <rs-slides>
 
-            <rs-slide data-key="rs-3" data-title="Slide" data-thumb="{{asset('theme/images/slides/sliderbg-004.jpg')}}" data-anim="f:slidebased;" data-in="o:1;y:(100%);m:true;row:5;" data-out="a:false;">
-
-                <img src="{{asset('theme/images/slides/sliderbg-004.jpg')}}" title="Unihub Global" width="1920" height="916" class="rev-slidebg tp-rs-img rs-lazyload" data-no-retina>
-
-                <rs-layer
-                    id="slider-2-slide-1-layer-0"
-                    data-type="shape"
-                    data-rsp_ch="on"
-                    data-xy="xo:50px,50px,0,0;yo:50px,50px,0,0;"
-                    data-text="w:normal;s:20,20,11,6;l:0,0,14,8;"
-                    data-dim="w:300px,300px,100%,100%;h:180px,180px,100%,100%;"
-                    data-vbility="f,f,t,t"
-                    data-frame_999="o:0;st:w;"
-                    style="z-index:8;background-color:rgba(255,255,255,0.4);"
-                >
-                </rs-layer>
-
-                <rs-layer
-                    id="slider-2-slide-1-layer-1"
-                    data-type="text"
-                    data-color="#003760"
-                    data-rsp_ch="on"
-                    data-xy="x:l,l,c,c;xo:22px,22px,0,0;yo:274px,274px,104px,44px;"
-                    data-text="w:normal;s:66,66,50,36;l:80,80,60,46;fw:600;a:left,left,center,center;"
-                    data-frame_0="y:100%;"
-                    data-frame_1="e:power4.inOut;st:270;sp:800;sR:270;"
-                    data-frame_999="o:0;st:w;sR:7930;"
-                    style="z-index:10;font-family:'Playfair Display';"
-                >Study in <span class="text-base-skin">Abroad</span> <br> Universities<br>
-                </rs-layer>
-
-                <a
-                    id="slider-2-slide-1-layer-2"
-                    class="rs-layer"
-                    href="{{url('/')}}/contact-us/" target="_self"
-                    data-type="text"
-                    data-rsp_ch="on"
-                    data-xy="x:c;xo:-556px,-556px,0,0;y:m;yo:200px,200px,112px,65px;"
-                    data-text="w:normal;s:14,14,14,13;l:25,25,18,13;fw:600;"
-                    data-padding="t:8,8,10,9;r:30,30,30,25;b:8,8,10,9;l:30,30,30,25;"
-                    data-border="bos:solid;boc:#e23861;bow:2px,2px,2px,2px;bor:50px,50px,50px,50px;"
-                    data-frame_0="y:100%;"
-                    data-frame_1="e:power4.inOut;st:590;sp:500;sR:590;"
-                    data-frame_999="o:0;st:w;sR:7910;"
-                    data-frame_hover="c:#fff;bgc:#003760;boc:#003760;bor:50px,50px,50px,50px;bos:solid;bow:2px,2px,2px,2px;e:default;"
-                    style="z-index:11;background-color:#e23861;font-family:'Poppins';"
-                ><span class="fa fa-calendar"></span> &nbsp; Book an Appointment
-                </a>
-
-
-                <rs-layer
-                    id="slider-2-slide-1-layer-3"
-                    data-type="text"
-                    data-rsp_ch="on"
-                    data-xy="x:c;xo:-588px,-588px,0,545px;y:m;yo:-124px,-124px,-145px,6px;"
-                    data-text="w:normal;s:15;l:20,20,20,14;"
-                    data-vbility="t,t,t,f"
-                    data-padding="t:5,5,3,2;r:15,15,10,6;b:5,5,3,2;l:15,15,10,6;"
-                    data-frame_0="y:100%;"
-                    data-frame_1="e:power4.inOut;st:270;sp:900;sR:270;"
-                    data-frame_999="o:0;st:w;sR:7930;"
-                    style="z-index:9;background-color:#003a66;font-family:'Poppins';"
-                >Unihub Global
-                </rs-layer>
-
-            </rs-slide>
-
             <rs-slide data-key="rs-4" data-title="Slide" data-thumb="{{asset('theme/images/slides/sliderbg-003.jpg')}}" data-anim="f:slidebased;" data-in="o:1;y:(100%);m:true;row:5;" data-out="a:false;">
 
                 <img src="{{asset('theme/images/slides/sliderbg-003.jpg')}}" title="slider-img-03.png')}}" width="1920" height="916" class="rev-slidebg tp-rs-img" data-no-retina>
@@ -88,7 +21,7 @@
                     data-frame_1="e:power4.inOut;st:270;sp:800;sR:270;"
                     data-frame_999="o:0;st:w;sR:7930;"
                     style="z-index:9;font-family:'Playfair Display';"
-                >Foundation was<br><span class="text-base-skin">Established</span> with a small<br>idea that was incepted in
+                >Find your perfect<br><span class="text-base-skin">Study</span> program <br>Abroad</span>
                 </rs-layer>
 
                 <rs-layer
@@ -128,12 +61,12 @@
                     data-xy="x:r,r,c,c;xo:19px,19px,-1px,0;y:m;yo:200px,200px,71px,56px;"
                     data-text="w:normal;s:14,14,14,13;l:25,25,18,13;fw:600;"
                     data-padding="t:8,8,10,9;r:30,30,30,25;b:8,8,10,9;l:30,30,30,25;"
-                    data-border="bos:solid;boc:#e23861;bow:2px,2px,2px,2px;bor:50px,50px,50px,50px;"
+                    data-border="bos:solid;boc:#84eca6;bow:2px,2px,2px,2px;bor:50px,50px,50px,50px;"
                     data-frame_0="y:100%;"
                     data-frame_1="e:power4.inOut;st:590;sp:600;sR:590;"
                     data-frame_999="o:0;st:w;sR:7910;"
                     data-frame_hover="c:#fff;bgc:#003760;boc:#003760;bor:50px,50px,50px,50px;bos:solid;bow:2px,2px,2px,2px;e:default;"
-                    style="z-index:11;background-color:#e23861;font-family:'Poppins';"
+                    style="z-index:11;background-color:#84eca6;font-family:'Poppins';"
                 ><span class="fa fa-calendar"></span> &nbsp;Book an Appointment
                 </a>
 
@@ -183,7 +116,11 @@
                                 Uni Hub Consultancy has been providing comprehensive support to students in achieving their global education aspirations for over a decade. Our range of services includes academic advisory, seamless university application, expedited one-week application process approval, diploma recognition, assistance with accommodation, guidance on residence permit applications, and dedicated support for settling in. At Uni Hub Consultancy, we take immense pride in representing prestigious universities and colleges in Europe and the USA, guaranteeing exceptional service and unwavering support for all our candidates.
                             </p>
                         </div>
+
                     </div><!--section-title-end -->
+                    <h5>
+                        Every year, We help thousands of students find, compare, and connect with some of the best universities and schools around the world. Start with us today!
+                    </h5>
 
                     <div class="d-block d-sm-flex mt-30 res-991-mt-20">
                         {{-- <div class="mr-30 res-575-mr-0">
@@ -209,10 +146,10 @@
 
 
     <!-- heading-section-end -->
-    <hr>
+    {{-- <hr> --}}
 
     <!-- top-section -->
-    <section class="prt-row home02-top-section clearfix">
+    {{-- <section class="prt-row home02-top-section clearfix">
         <div class="container-fliud">
             <div class="row">
                 <div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 col-12">
@@ -301,7 +238,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- top-section-end -->
 
        <!-- services-section -->
@@ -324,12 +261,12 @@
                             <li class="tab active"><a href="#" data-filter="*">Student</a></li>
                             <li class="tab"><a href="#" data-filter=".business">Direct Registration</a></li>
                             <li class="tab"><a href="#" data-filter=".education">Migration</a></li>
-                            <li class="tab"><a href="#" data-filter=".immigration">Visa Services</a></li>
-                            <li class="tab"><a href="#" data-filter=".immigration">Placements</a></li>
+                            <li class="tab"><a href="#" data-filter=".Study">Visa Services</a></li>
+                            <li class="tab"><a href="#" data-filter=".Study">Placements</a></li>
                         </ul>
                         <div class="content-tab">
                             <div class="row isotope-project">
-                                <div class="col-lg-4 col-md-6 project_item business immigration">
+                                <div class="col-lg-4 col-md-6 project_item business Study">
                                     <!-- featured-imagebox -->
                                     <div class="featured-imagebox featured-imagebox-tab">
                                         <div class="featured-thumbnail">
@@ -348,7 +285,7 @@
                                         </div>
                                     </div><!-- featured-imagebox end-->
                                 </div>
-                                <div class="col-lg-4 col-md-6 project_item education immigration">
+                                <div class="col-lg-4 col-md-6 project_item education Study">
                                     <!-- featured-imagebox -->
                                     <div class="featured-imagebox featured-imagebox-tab">
                                         <div class="featured-thumbnail">
@@ -362,7 +299,7 @@
                                                 <h3><a href="england.html">England</a></h3>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>We will help you with every step of the process of immigration,millions of decisions about who has the right to visit or stay.</p>
+                                                <p>We will help you with every step of the process of Study,millions of decisions about who has the right to visit or stay.</p>
                                             </div>
                                         </div>
                                     </div><!-- featured-imagebox end-->
@@ -378,7 +315,7 @@
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3><a href="russia.html">New Zealand</a></h3>
+                                                <h3><a href="#">New Zealand</a></h3>
                                             </div>
                                             <div class="featured-desc">
                                                 <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
@@ -386,6 +323,68 @@
                                         </div>
                                     </div><!-- featured-imagebox end-->
                                 </div>
+
+                                <div class="col-lg-4 col-md-6 project_item business education">
+                                    <!-- featured-imagebox -->
+                                    <div class="featured-imagebox featured-imagebox-tab">
+                                        <div class="featured-thumbnail">
+                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/tab/0001_SG-Now.jpg')}}" alt="gallery-img">
+                                            <div class="featured-flag-box">
+                                                <span class="img-thumbnail flag-icon-sg flag-icon-squared"></span>
+                                            </div>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <h3><a href="#">Singapore</a></h3>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-imagebox end-->
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 project_item business education">
+                                    <!-- featured-imagebox -->
+                                    <div class="featured-imagebox featured-imagebox-tab">
+                                        <div class="featured-thumbnail">
+                                            <img class="img-fluid" width="656" height="484" style="min-height:296px" src="{{asset('theme/images/tab/japan-best-cities-tokyo.jpg')}}" alt="gallery-img">
+                                            <div class="featured-flag-box">
+                                                <span class="img-thumbnail flag-icon-jp flag-icon-squared"></span>
+                                            </div>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <h3><a href="#">Japan</a></h3>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-imagebox end-->
+                                </div>
+
+
+                                <div class="col-lg-4 col-md-6 project_item business education">
+                                    <!-- featured-imagebox -->
+                                    <div class="featured-imagebox featured-imagebox-tab">
+                                        <div class="featured-thumbnail">
+                                            <img class="img-fluid" width="656" height="484" style="min-height:296px" src="{{asset('theme/images/tab/Nairobi-National-Park-6.jpg')}}" alt="gallery-img">
+                                            <div class="featured-flag-box">
+                                                <span class="img-thumbnail flag-icon-ke flag-icon-squared"></span>
+                                            </div>
+                                        </div>
+                                        <div class="featured-content">
+                                            <div class="featured-title">
+                                                <h3><a href="#">Kenya</a></h3>
+                                            </div>
+                                            <div class="featured-desc">
+                                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- featured-imagebox end-->
+                                </div>
+
                             </div>
                         </div>
                         <br><br>
@@ -399,26 +398,10 @@
     </section>
     <!-- services-section-end -->
 
-    <section class="prt-row home02-service-section bg-layer-equal-height clearfix">
-        <div class="container">
 
-            <div class="row">
-
-                <div class="col-lg-12 text-center">
-
-                    <h2 class="txt-primary mb-4">Explore studying abroad with expert guidance. Book a consultation to unlock your international education opportunities.</h2>
-
-                    <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book an appointment</a>
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
 
     <!-- service-section -->
-    <section class="prt-row home02-service-section bg-layer-equal-height clearfix">
+    {{-- <section class="prt-row home02-service-section bg-layer-equal-height clearfix">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 align-self-end">
@@ -538,114 +521,29 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- service-section-end -->
 
 
 
-    <!-- procedure-section -->
-    <section class="prt-row home02-procedure-section clearfix">
-        <div class="container">
-            <!-- row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- section title -->
-                    <div class="section-title title-style-center_text style5">
-                        <h4>Here’s how</h4>
-                        <div class="title-header">
-                            <h2 class="title">Unihub Global helps you achieve <br>your <span> dreams!</span></h2>
-                        </div>
-                    </div><!-- section title end -->
-                </div>
-            </div>
-            <div class="row mt_15">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-procedure">
-                        <div class="image-procedure">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid auto_size" width="210" height="210" src="{{asset('theme/images/process-3.png')}}" alt="image">
-                                <div class="process-num"><span class="number"></span></div>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3>Free Expert Counselling Service</h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>As the best study abroad consultancy in Kerala, MWT Education Consultancy has over two decades of experience in counselling, and can guide you toward a wonderful future abroad. We help you understand your study goals and career aspirations.</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-procedure">
-                        <div class="image-procedure">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid auto_size" width="210" height="210" src="{{asset('theme/images/process-4.jpg')}}" alt="image">
-                                <div class="process-num"><span class="number"></span></div>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3>Identify Course, Country & University</h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>Which is the study program that’s the best fit for your capabilities and interests? Which are the best Universities offering this course, and which country should you be studying it in? MWT Consultancy’s experts will help you figure it out.</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-procedure">
-                        <div class="image-procedure">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid auto_size" width="210" height="210" src="{{asset('theme/images/process-2.png')}}" alt="image">
-                                <div class="process-num"><span class="number"></span></div>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3>Application process</h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>Student applications can be a harrowing process—but not if you have MWT Education Consultancy on your side! Our experts help you write compelling essays and error-free applications and send in perfect documents, well on time.</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <!-- featured-imagebox -->
-                    <div class="featured-imagebox featured-imagebox-procedure">
-                        <div class="image-procedure">
-                            <div class="featured-thumbnail">
-                                <img class="img-fluid auto_size" width="210" height="210" src="{{asset('theme/images/process-1.jpg')}}" alt="image">
-                                <div class="process-num"><span class="number"></span></div>
-                            </div>
-                        </div>
-                        <div class="featured-content">
-                            <div class="featured-title">
-                                <h3>Visa application assistance</h3>
-                            </div>
-                            <div class="featured-desc">
-                                <p>Which visa is the right one for your particular situation, and how can you ensure visa success? The MWT Education Consultancy team promises over 96% visa success, which means that your visa application is in good hands!</p>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox end-->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- procedure-section-end -->
 
     <!-- testimonial-section -->
-    <section class="prt-row padding_zero-section home02-testimonial-section clearfix">
-        <div class="container-fluid p-0">
-            <div class="row slick_slider prt-boxes-spacing-0px" data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows":false, "dots":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 2}} , {"breakpoint":992,"settings":{"slidesToShow": 2}}, {"breakpoint":768,"settings":{"slidesToShow": 1}}]}'>
-                <div class="col-lg-4 prt-box-col-wrapper">
-                    <div class="testimonials style2">
+    <section class="prt-row about01-testimonial-section bg-base-white clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--section-title-->
+                    <div class="section-title title-style-center_text">
+                        <div class="title-header">
+                            <h3>Testimonials</h3>
+                            <h2 class="title">What our clients say <span>About us</span></h2>
+                        </div>
+                    </div><!--section-title end-->
+                </div>
+            </div>
+            <div class="row slick_slider" data-slick='{"slidesToShow": 2, "slidesToScroll": 1, "arrows":false, "dots":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 2}} , {"breakpoint":992,"settings":{"slidesToShow": 1}}, {"breakpoint":768,"settings":{"slidesToShow": 1}}]}'>
+                <div class="col-lg-6">
+                    <div class="testimonials style2 bg-grey">
                         <div class="testimonial-wrapper">
                             <div class="testimonial-info">
                                 <div class="testimonial-avatar">
@@ -675,8 +573,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 prt-box-col-wrapper">
-                    <div class="testimonials style2">
+                <div class="col-lg-6">
+                    <div class="testimonials style2 bg-grey">
                         <div class="testimonial-wrapper">
                             <div class="testimonial-info">
                                 <div class="testimonial-avatar">
@@ -686,7 +584,7 @@
                                 </div>
                                 <div class="testimonial-caption">
                                     <h3>Tonny Mikes</h3>
-                                    <label>Manager</label>
+                                    <label>Student</label>
                                     <div class="star-ratings prt-section-wrapper-cell">
                                         <div class="star-ratings">
                                             <ul class="rating">
@@ -701,13 +599,13 @@
                                 </div>
                             </div>
                             <div class="testimonial-content">
-                                <blockquote class="testimonial-text">Travellers from countries categorized under the high-risk list who are eligible to enter Portugal, aged 12 and older, are obliged to present certificates.</blockquote>
+                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 prt-box-col-wrapper">
-                    <div class="testimonials style2">
+                <div class="col-lg-6">
+                    <div class="testimonials style2 bg-grey">
                         <div class="testimonial-wrapper">
                             <div class="testimonial-info">
                                 <div class="testimonial-avatar">
@@ -717,7 +615,7 @@
                                 </div>
                                 <div class="testimonial-caption">
                                     <h3>John Doe</h3>
-                                    <label>Director</label>
+                                    <label>Student</label>
                                     <div class="star-ratings prt-section-wrapper-cell">
                                         <div class="star-ratings">
                                             <ul class="rating">
@@ -732,13 +630,13 @@
                                 </div>
                             </div>
                             <div class="testimonial-content">
-                                <blockquote class="testimonial-text">We have helps students business persons tourists clients with medical needs to acquire UK visas. Besides we also help with other family and provide.</blockquote>
+                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 prt-box-col-wrapper">
-                    <div class="testimonials style2">
+                <div class="col-lg-6">
+                    <div class="testimonials style2 bg-grey">
                         <div class="testimonial-wrapper">
                             <div class="testimonial-info">
                                 <div class="testimonial-avatar">
@@ -747,8 +645,8 @@
                                     </div>
                                 </div>
                                 <div class="testimonial-caption">
-                                    <h3>Sylvia Kimenju</h3>
-                                    <label>Officer</label>
+                                    <h3>Sofia moreen</h3>
+                                    <label>Student</label>
                                     <div class="star-ratings prt-section-wrapper-cell">
                                         <div class="star-ratings">
                                             <ul class="rating">
@@ -763,7 +661,7 @@
                                 </div>
                             </div>
                             <div class="testimonial-content">
-                                <blockquote class="testimonial-text">Truly knowledgeable, skilled and has empathy throughout the process. No doubt, the company’s success & the recommendations.</blockquote>
+                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
                             </div>
                         </div>
                     </div>
@@ -773,161 +671,105 @@
     </section>
     <!-- testimonial-section-end -->
 
-    <!-- fid-section -->
-    <section class="prt-row home02-fid-section bg-layer-equal-height clearfix">
+    <!-- why-us-section -->
+    <section class="prt-row about01-why-us-section prt-bg prt-bgimage-yes bg-img2 bg-base-dark clearfix">
+        <div class="prt-row-wrapper-bg-layer prt-bg-layer"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-9">
-                    <div class="spacing-11">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- prt-fid -->
-                                        <div class="prt-fid inside prt-fid-with-icon prt-fid-view-lefticon style3">
-                                            <div class="prt-fid-icon-wrapper">
-                                                <i class="flaticon-office-building"></i>
-                                            </div>
-                                            <div class="prt-fid-contents">
-                                                <h4 class="prt-fid-inner">
-                                                    <span   data-appear-animation="animateDigits"
-                                                            data-from="0"
-                                                            data-to="252"
-                                                            data-interval="5"
-                                                            data-before=""
-                                                            data-before-style="sup"
-                                                            data-after="+"
-                                                            data-after-style="sub"
-                                                            class="numinate">25
-                                                    </span>
-                                                </h4>
-                                            </div>
-                                            <h3 class="prt-fid-title">Courses</h3>
-                                        </div><!-- prt-fid end -->
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- prt-fid -->
-                                        <div class="prt-fid inside prt-fid-with-icon prt-fid-view-lefticon style3">
-                                            <div class="prt-fid-icon-wrapper">
-                                                <i class="flaticon-teamwork"></i>
-                                            </div>
-                                            <div class="prt-fid-contents">
-                                                <h4 class="prt-fid-inner">
-                                                    <span   data-appear-animation="animateDigits"
-                                                            data-from="0"
-                                                            data-to="789"
-                                                            data-interval="5"
-                                                            data-before=""
-                                                            data-before-style="sup"
-                                                            data-after="+"
-                                                            data-after-style="sub"
-                                                            class="numinate">56
-                                                    </span>
-                                                </h4>
-                                            </div>
-                                            <h3 class="prt-fid-title">Applications</h3>
-                                        </div><!-- prt-fid end -->
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- prt-fid -->
-                                        <div class="prt-fid inside prt-fid-with-icon prt-fid-view-lefticon style3">
-                                            <div class="prt-fid-icon-wrapper">
-                                                <i class="flaticon-process"></i>
-                                            </div>
-                                            <div class="prt-fid-contents">
-                                                <h4 class="prt-fid-inner">
-                                                    <span   data-appear-animation="animateDigits"
-                                                            data-from="0"
-                                                            data-to="86"
-                                                            data-interval="10"
-                                                            data-before=""
-                                                            data-before-style="sup"
-                                                            data-after="+"
-                                                            data-after-style="sub"
-                                                            class="numinate">49
-                                                    </span>
-                                                    {{-- <span class="fid-prefix">K</span> --}}
-                                                </h4>
-                                            </div>
-                                            <h3 class="prt-fid-title">Visa Processed</h3>
-                                        </div><!-- prt-fid end -->
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6">
-                                        <!-- prt-fid -->
-                                        <div class="prt-fid inside prt-fid-with-icon prt-fid-view-lefticon style3">
-                                            <div class="prt-fid-icon-wrapper">
-                                                <i class="flaticon-coronavirus"></i>
-                                            </div>
-                                            <div class="prt-fid-contents">
-                                                <h4 class="prt-fid-inner">
-                                                    <span   data-appear-animation="animateDigits"
-                                                            data-from="0"
-                                                            data-to="8"
-                                                            data-interval="1"
-                                                            data-before=""
-                                                            data-before-style="sup"
-                                                            data-after="+"
-                                                            data-after-style="sub"
-                                                            class="numinate">8
-                                                    </span>
-                                                    <span class="fid-prefix">+</span>
-                                                </h4>
-                                            </div>
-                                            <h3 class="prt-fid-title">Countries</h3>
-                                        </div><!-- prt-fid end -->
-                                    </div>
+                <div class="col-lg-12">
+                    <!--section-title-->
+                    <div class="section-title title-style-center_text">
+                        <div class="title-header">
+                            <h3>WHY CHOOSE US</h3>
+                            <h2 class="title">Your first stop on <br>your <span> journey to study abroad</span></h2>
+                        </div>
+                    </div><!--section-title end-->
+                </div>
+            </div>
+            <div class="row res-575-mt_25">
+                <div class="col-lg-12">
+                    <div class="featured-icon-box style6">
+                        <div class="featured-icon-wrapper">
+                            <div class="featured-icon">
+                                <div class="prt-icon prt-icon_element-onlytxt prt-icon_element-size-lg prt-icon_element-color-skincolor">
+                                    <i class="flaticon-passport-3"></i>
                                 </div>
+                            </div>
+                            <div class="featured-title">
+                                <h3>Our Mission</h3>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-desc">
+                                <p>The leading global provider of Study and visa services with the required reach, agility and client commitment to enable corporations and individuals to more easily navigate complex regulations.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-3">
-                    <div class="prt-bg prt-col-bgimage-yes col-bg-img-six spacing-12">
-                        <div class="prt-col-wrapper-bg-layer prt-bg-layer"></div>
-                        <div class="layer-content"></div>
+                <div class="col-lg-12">
+                    <div class="featured-icon-box style6">
+                        <div class="featured-icon-wrapper">
+                            <div class="featured-icon">
+                                <div class="prt-icon prt-icon_element-onlytxt prt-icon_element-size-lg prt-icon_element-color-skincolor">
+                                    <i class="flaticon-office-building"></i>
+                                </div>
+                            </div>
+                            <div class="featured-title">
+                                <h3>Our Vision</h3>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-desc">
+                                <p>Provide information, orientation and Study outreach programs to help students, faculty, scholars and staff maintain legal Study status & to provide accurate and timely advice on Study.</p>
+                            </div>
+                        </div>
                     </div>
-                    <img class="img-fluid prt-equal-height-image" src="{{asset('theme/images/bg-image/col-bgimage-6.png')}}" alt="col-bgimage-6.png')}}">
-                </div> --}}
+                </div>
+                <div class="col-lg-12">
+                    <div class="featured-icon-box style6">
+                        <div class="featured-icon-wrapper">
+                            <div class="featured-icon">
+                                <div class="prt-icon prt-icon_element-onlytxt prt-icon_element-size-lg prt-icon_element-color-skincolor">
+                                    <i class="flaticon-coronavirus"></i>
+                                </div>
+                            </div>
+                            <div class="featured-title">
+                                <h3>Our Strategy</h3>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-desc">
+                                <p>Responsible for strategies compliance with government regulations relating to the admission or hiring of international students, including management of the visitor Information System.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- fid-section-end -->
+    <!-- why-us-section -->
 
-    <!-- video-section -->
-    <section class="prt-row home02-video-section bg-base-skin clearfix">
+    <section class="prt-row home02-service-section bg-layer-equal-height clearfix">
         <div class="container">
-            <div class="row g-lg-0">
-                <div class="col-lg-6 align-self-center pr-60 res-1199-pr-30 res-991-pr-15">
-                    <iframe width="592" height="333" src="https://www.youtube.com/embed/rR-1KlR6FtI" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border:none" allowfullscreen></iframe>
-                </div>
-                <div class="col-lg-6 align-self-center ">
-                    <div class="pb-10 res-991-pb-0 res-991-mt-30 ml_15 res-991-ml-0">
 
-                        <!-- row title -->
-                        <div class="row-title">
-                            <div class="title-header">
-                                <h2><b>Studying abroad</b> is always exciting, but you may be confused about how to take the first step.</h2>
-                            </div>
-                        </div><!-- row title end -->
-                        <div class="d-block d-sm-flex mt-45 res-991-mt-30">
-                            <div class="mr-30">
-                                <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp;   Book an appointment</a>
-                            </div>
-                            <div class="featured-icon-box contact-logo">
-                                <div class="prt-icon-type-image">
-                                    <img width="35" height="35" src="{{asset('theme/images/whatsapp-logo.svg')}}" alt="image">
-                                </div>
-                                <div class="featured-content">
-                                    <p>Any Query: <a href="tel:+351 931 371 105">+351 931 371 105</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+
+                <div class="col-lg-12 text-center">
+
+                    <h2 class="txt-primary mb-4">Explore studying abroad with expert guidance. Book a consultation to unlock your international education opportunities.</h2>
+
+                    <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book an appointment</a>
+
                 </div>
+
             </div>
+
         </div>
     </section>
-    <!-- video-section-end -->
+
+
+
+
 
     <!-- client-section -->
     <div class="prt-row padding_zero-section home02-client-section bg-base-grey clearfix">
