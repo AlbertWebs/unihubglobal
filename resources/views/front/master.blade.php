@@ -236,10 +236,10 @@
                             <div class="visa-consultation">
                                 <div class="section-title">
                                     <div class="featured-title">
-                                        <h3>Portugal</h3>
+                                        <h3>Study Abroad Today</h3>
                                     </div>
                                     <div class="big-heading">
-                                        <h3>immigrations</h3>
+                                        <h3 style="text-transform: capitalize">Unihub Global</h3>
                                     </div>
                                 </div>
                                 <div class="description">
@@ -256,7 +256,9 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="text-left">
-                                <span class="cpy-text"> Copyright © {{date('Y')}} <a href="{{url('/')}}/" class=" font-weight-500"> UniHub Global Limited </a>  All rights reserved |  Powered By <a href="{{url('/')}}/" class=" font-weight-500">Designekta Studios</a></span>
+                                <span class="cpy-text"> Copyright © {{date('Y')}} <a href="{{url('/')}}/" class=" font-weight-500"> UniHub Global Limited </a>  All rights reserved
+                                     {{-- |  Powered By <a href="{{url('/')}}/" class=" font-weight-500">Designekta Studios</a> --}}
+                                    </span>
                             </div>
                         </div>
                     </div>
