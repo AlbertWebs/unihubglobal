@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('front.index');
 });
+
+Route::get('/study-abroad', [App\Http\Controllers\StudyController::class, 'index'])->name('study-aborad');
+Route::get('/study-abroad/{slung}', [App\Http\Controllers\StudyController::class, 'show'])->name('show-study-aborad');

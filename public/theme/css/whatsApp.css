@@ -3,7 +3,7 @@
 :root {
   --primary: #113b4a;
   --primaryLight: #377186;
-  --accent: #84eca6;
+  --accent: #6F8FAF;
   --accentLight: #a8fac3;
   --grey: rgb(121, 121, 121);
   --mainfont: "Raleway", sans-serif;
@@ -501,7 +501,7 @@ header {
 }
 
 .btnOutline:hover{
-  background-color: #84eca6;
+  background-color: #6F8FAF;
 }
 
 .HOVER {
@@ -568,7 +568,7 @@ header {
   height: 3px;
   border-radius: 5px;
   display: block;
-  background-color: #84eca6;
+  background-color: #6F8FAF;
   position: absolute;
 }
 .closeBTN > span:first-child {

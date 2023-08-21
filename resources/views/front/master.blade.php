@@ -84,14 +84,26 @@
                                                 <li class="mega-menu-item active">
                                                     <a href="#" class="mega-menu-link">About Us</a>
                                                 </li>
+
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Study Abroad</a>
+                                                    <ul class="mega-submenu">
+                                                        <?php
+                                                           $Studies = DB::table('studies')->get();
+                                                        ?>
+                                                        @foreach ($Studies as $studies)
+                                                        <li><a href="{{url('/')}}/study-abroad/{{$studies->slung}}">{{$studies->title}}</a></li>
+                                                        @endforeach
+                                                    </ul>
                                                 </li>
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Degree</a>
                                                 </li>
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Residency Services</a>
+                                                </li>
+                                                <li class="mega-menu-item">
+                                                    <a href="#" class="mega-menu-link">Adventure Tours</a>
                                                 </li>
                                                 {{-- <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Countries</a>

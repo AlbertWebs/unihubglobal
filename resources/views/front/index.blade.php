@@ -13,7 +13,7 @@
                 <rs-layer
                     id="slider-2-slide-2-layer-0"
                     data-type="text"
-                    data-color="#003760"
+                    data-color="#365cf1"
                     data-rsp_ch="on"
                     data-xy="x:r,r,c,c;xo:22px,22px,0,0;yo:220px,220px,58px,53px;"
                     data-text="w:normal;s:65,65,50,32;l:80,80,65,41;fw:600;a:right,right,center,center;"
@@ -21,7 +21,7 @@
                     data-frame_1="e:power4.inOut;st:270;sp:800;sR:270;"
                     data-frame_999="o:0;st:w;sR:7930;"
                     style="z-index:9;font-family:'Playfair Display';"
-                >Find your perfect<br><span class="text-base-skin">Study</span> program <br>Abroad</span>
+                >Bringing Education <br><span class="text-base-skin">to you across </span>  <br>globe</span>
                 </rs-layer>
 
                 <rs-layer
@@ -40,7 +40,7 @@
                 <rs-layer
                     id="slider-2-slide-2-layer-2"
                     data-type="text"
-                    data-color="#003760"
+                    data-color="#365cf1"
                     data-rsp_ch="on"
                     data-xy="x:c;xo:402px,402px,634px,460px;y:m;yo:121px,121px,-61px,-4px;"
                     data-text="w:normal;s:18,18,15,9;l:25,25,20,12;"
@@ -61,13 +61,13 @@
                     data-xy="x:r,r,c,c;xo:19px,19px,-1px,0;y:m;yo:200px,200px,71px,56px;"
                     data-text="w:normal;s:14,14,14,13;l:25,25,18,13;fw:600;"
                     data-padding="t:8,8,10,9;r:30,30,30,25;b:8,8,10,9;l:30,30,30,25;"
-                    data-border="bos:solid;boc:#84eca6;bow:2px,2px,2px,2px;bor:50px,50px,50px,50px;"
+                    data-border="bos:solid;boc:#6F8FAF;bow:2px,2px,2px,2px;bor:50px,50px,50px,50px;"
                     data-frame_0="y:100%;"
                     data-frame_1="e:power4.inOut;st:590;sp:600;sR:590;"
                     data-frame_999="o:0;st:w;sR:7910;"
-                    data-frame_hover="c:#fff;bgc:#003760;boc:#003760;bor:50px,50px,50px,50px;bos:solid;bow:2px,2px,2px,2px;e:default;"
-                    style="z-index:11;background-color:#84eca6;font-family:'Poppins';"
-                ><span class="fa fa-calendar"></span> &nbsp;Book a Consultation
+                    data-frame_hover="c:#fff;bgc:#365cf1;boc:#365cf1;bor:50px,50px,50px,50px;bos:solid;bow:2px,2px,2px,2px;e:default;"
+                    style="z-index:11;background-color:#6F8FAF;font-family:'Poppins';"
+                ><span class="fa fa-calendar"></span> &nbsp;Free Consultation
                 </a>
 
                 <a
@@ -75,17 +75,17 @@
                     class="rs-layer"
                     href="{{url('/')}}/contact-us/" target="_self"
                     data-type="text"
-                    data-color="#003760"
+                    data-color="#365cf1"
                     data-rsp_ch="on"
                     data-xy="x:r,r,c,c;xo:285px,225px,0,0;y:m;yo:200px,200px,133px,100px;"
                     data-text="w:normal;s:14,14,14,13;l:25,25,18,13;fw:600;"
                     data-vbility="t,t,t,f"
                     data-padding="t:8,8,10,9;r:30,30,30,25;b:8,8,10,9;l:30,30,30,25;"
-                    data-border="bos:solid;boc:#003760;bow:2px,2px,2px,2px;bor:50px,50px,50px,50px;"
+                    data-border="bos:solid;boc:#365cf1;bow:2px,2px,2px,2px;bor:50px,50px,50px,50px;"
                     data-frame_0="y:100%;"
                     data-frame_1="e:power4.inOut;st:590;sp:600;sR:590;"
                     data-frame_999="o:0;st:w;sR:7910;"
-                    data-frame_hover="c:#fff;bgc:#003760;boc:#003760;bor:50px,50px,50px,50px;bos:solid;bow:2px,2px,2px,2px;e:default;"
+                    data-frame_hover="c:#fff;bgc:#365cf1;boc:#365cf1;bor:50px,50px,50px,50px;bos:solid;bow:2px,2px,2px,2px;e:default;"
                     style="z-index:10;font-family:'Poppins';"
                 >Conatct Us!
                 </a>
@@ -127,7 +127,7 @@
                             <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-skincolor" href="services-1.html">Explore More</a>
                         </div> --}}
                         <div class="mr-30 res-575-mr-0">
-                            <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book a Consultation</a>
+                            <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Free Consultation</a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                     <div class="prt-col-wrapper-bg-layer prt-bg-layer"></div>
                     <div class="layer-content"></div>
                 </div>
-                <img class="img-fluid prt-equal-height-image" style="border-radius:10px !important" src="{{asset('theme/images/New-Blog-Post-Webinar-850x560.png')}}" alt="UniHub Global">
+                <img class="img-fluid prt-equal-height-image" style="border-radius:10px !important" src="{{asset('theme/images/unnamed.jpg')}}" alt="UniHub Global">
             </div>
         </div>
     </div>
@@ -242,7 +242,7 @@
     <!-- top-section-end -->
 
        <!-- services-section -->
-       <section class="prt-row home03-services-section bg-base-dark clearfix">
+       <section class="prt-row home03-services-section bg-base-grey clearfix">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -756,9 +756,9 @@
 
                 <div class="col-lg-12 text-center">
 
-                    <h2 class="txt-primary mb-4">Explore studying abroad with expert guidance. Book a consultation to unlock your international education opportunities.</h2>
+                    <h2 class="txt-primary mb-4">Explore studying abroad with expert guidance. Free Consultation to unlock your international education opportunities.</h2>
 
-                    <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book a Consultation</a>
+                    <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Free Consultation</a>
 
                 </div>
 
@@ -985,6 +985,77 @@
         </div>
     </section>
     <!-- blog-section-end -->
+
+          <!-- services02-second-section -->
+          <section class="prt-row services02-second-section bg-base-grey clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" style="margin:0 auto;">
+                        <div class="service-title mb-20">
+                            <center>
+                                <div class="service-header">
+                                    <h1 class="mb-5">Still Lost?</h1>
+                                </div>
+                                <div class="service-desc">
+                                    <h3>Book a careers counselling session</h3>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8" style="margin:0 auto;">
+                        <div id="comments" class="comments-area">
+                            <div class="comment-respond">
+                                <form action="#" method="post" id="commentform" class="comment-form">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p class="comment-form-author">
+                                                <input id="author" placeholder="Enter your name" name="author" type="text" value="" size="30" aria-required="true">
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p class="comment-form-email">
+                                                <input id="email" placeholder="Enter your email" name="email" type="text" value="" size="30" aria-required="true">
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <p class="comment-form-comment">
+                                                <input id="phone-number" placeholder="Enter your number" name="number" type="text" size="30">
+                                            </p>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <p class="comment-form-comment">
+                                                <textarea id="comment" placeholder="Let us know what you are looking for" name="comment" cols="45" rows="4" aria-required="true"></textarea>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <p class="comment-cookies">
+                                                <input id="comment-cookies-consent" name="comment-cookies-consent" type="checkbox" value="yes" class="me-1">
+                                                <label for="comment-cookies-consent">I confirm that I have already secured funding</label>
+                                            </p>
+                                            <p class="comment-cookies">
+                                                <input id="comment-cookies-consent" name="comment-cookies-consent" type="checkbox" value="yes" class="me-1">
+                                                <label for="comment-cookies-consent">I acknowledge that there are no full scholarships avaialible</label>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <p class="form-submit">
+                                                <button class="w-100 submit prt-btn prt-btn-size-md prt-btn-shape-round prt-btn-style-fill prt-btn-color-skincolor" type="submit">Contact Us</button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- services02-second-section-end -->
+
 
 </div><!-- site-main end-->
 @endsection

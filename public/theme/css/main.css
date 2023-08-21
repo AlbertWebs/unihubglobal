@@ -95,7 +95,7 @@ p {
     text-shadow: none;
 }
 ::selection {
-    background: #84eca6;
+    background: #6F8FAF;
     color: #fff;
     text-shadow: none;
 }
@@ -218,7 +218,7 @@ menu, ol, ul {
     --base-bodyfont: 'Poppins', sans-serif;
     --base-bodyfont-Size: 15px;
     --base-bodyfont-color: #2e2f30;
-    --base-skin: #84eca6;
+    --base-skin: #6F8FAF;
     --base-dark: #003a66;
     --base-grey: #F0F5FB;
     --base-white: #ffffff;
@@ -238,7 +238,7 @@ menu, ol, ul {
 .bg-base-grey { background-color: var(--base-grey);}
 .bg-base-white { background-color: var(--base-white);}
 
-.bg-base-light-skin  { background-color: #84eca6bd;}
+.bg-base-light-skin  { background-color: #6F8FAFbd;}
 
 /** Text Colors **/
 .text-base-skin { color: var(--base-skin); text-shadow: 1px 1px 0px #003a66;}
@@ -1735,8 +1735,8 @@ nav.main-menu ul.menu > li.mega-menu-item:hover > a {
     color: var(--base-white);
 }
 .second-footer .social-icons li a:hover {
-    background-color: #84eca6;
-    border-color: #84eca6;
+    background-color: #6F8FAF;
+    border-color: #6F8FAF;
 }
 .second-footer .social-icons li {
     min-width: auto;
@@ -2666,5 +2666,5 @@ section.error-404 .prt-404-img { margin-bottom: 35px; }
     margin-top: 15px;
 }
 .featured-thumbnail{
-    border:5px solid #84eca6;
+    border:5px solid #6F8FAF;
 }
