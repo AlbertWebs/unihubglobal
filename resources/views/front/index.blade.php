@@ -281,7 +281,10 @@
                                                 <h3><a href="france.html">USA</a></h3>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>Millions of decisions about who has the right to visit or stay,apply to travel, study, work or immigrate citizenship or PR.</p>
+                                                <p>
+                                                    The USA has made a name for itself as a center of global education thanks to its illustrious colleges, varied culture, and limitless chances. Here are five strong arguments for why the United States should be at the top of your list if you're thinking about studying abroad.
+
+                                                </p>
                                             </div>
                                         </div>
                                     </div><!-- featured-imagebox end-->
@@ -661,7 +664,7 @@
 
                 <div class="col-lg-12 text-center">
 
-                    <h2 class="txt-primary mb-4">Explore studying abroad with expert guidance. Free Consultation to unlock your international education opportunities.</h2>
+                    <h2 class="txt-primary mb-4">Free Consultation to unlock your international education opportunities.</h2>
 
                     <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Free Consultation</a>
 

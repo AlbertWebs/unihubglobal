@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('studies', function (Blueprint $table) {
             $table->id();
             $table->string('title')->nullable();
+            $table->string('country')->nullable();
+            $table->string('meta')->nullable();
             $table->string('slung')->nullable();
             $table->text('content')->nullable();
             $table->string('image')->nullable();
