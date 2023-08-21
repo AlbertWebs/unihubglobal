@@ -3874,7 +3874,7 @@ form.contact_form select:focus {
 }
 .prt-tabs ul.tabs li a {
     border: none !important;
-    color: var(--base-white);
+    color: #365cf1;
     background-color: transparent;
     font-size: 16px;
     font-weight: 600;

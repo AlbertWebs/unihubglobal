@@ -241,8 +241,8 @@
     </section> --}}
     <!-- top-section-end -->
 
-       <!-- services-section -->
-       <section class="prt-row home03-services-section bg-base-grey clearfix">
+    <!-- services-section -->
+    <section class="prt-row home03-services-section bg-base-grey clearfix">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -258,26 +258,27 @@
                 <div class="col-lg-12">
                     <div class="prt-tabs slider-tab">
                         <ul class="tabs portfolio-filter text-center">
-                            <li class="tab active"><a href="#" data-filter="*">Student</a></li>
+                            <li class="tab active"><a href="#" data-filter=".student">Student</a></li>
                             <li class="tab"><a href="#" data-filter=".business">Direct Registration</a></li>
                             <li class="tab"><a href="#" data-filter=".education">Migration</a></li>
                             <li class="tab"><a href="#" data-filter=".Study">Visa Services</a></li>
-                            <li class="tab"><a href="#" data-filter=".Study">Placements</a></li>
+                            <li class="tab"><a href="#" data-filter=".Placements">Placements</a></li>
+                            {{-- <li class="tab"><a href="#" data-filter="*">All</a></li> --}}
                         </ul>
-                        <div class="content-tab">
-                            <div class="row isotope-project">
-                                <div class="col-lg-4 col-md-6 project_item business Study">
+                        <div class="content-tab" style="margin: 0 auto">
+                            <div class="row isotope-project" >
+                                <div class="col-lg-4 col-md-6 project_item business Study student">
                                     <!-- featured-imagebox -->
                                     <div class="featured-imagebox featured-imagebox-tab">
                                         <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/tab/01.jpg')}}" alt="gallery-img">
+                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-josh-hild-2422588.jpg')}}" alt="gallery-img">
                                             <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-fr flag-icon-squared"></span>
+                                                <span class="img-thumbnail flag-icon-us flag-icon-squared"></span>
                                             </div>
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3><a href="france.html">France</a></h3>
+                                                <h3><a href="france.html">USA</a></h3>
                                             </div>
                                             <div class="featured-desc">
                                                 <p>Millions of decisions about who has the right to visit or stay,apply to travel, study, work or immigrate citizenship or PR.</p>
@@ -285,18 +286,18 @@
                                         </div>
                                     </div><!-- featured-imagebox end-->
                                 </div>
-                                <div class="col-lg-4 col-md-6 project_item education Study">
+                                <div class="col-lg-4 col-md-6 project_item education Study Placements student">
                                     <!-- featured-imagebox -->
                                     <div class="featured-imagebox featured-imagebox-tab">
                                         <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/tab/02.jpg')}}" alt="gallery-img">
+                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-nadi-lindsay-2421179.jpg')}}" alt="gallery-img">
                                             <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-gb-eng flag-icon-squared"></span>
+                                                <span class="img-thumbnail flag-icon-gb flag-icon-squared"></span>
                                             </div>
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3><a href="england.html">England</a></h3>
+                                                <h3><a href="england.html">UK</a></h3>
                                             </div>
                                             <div class="featured-desc">
                                                 <p>We will help you with every step of the process of Study,millions of decisions about who has the right to visit or stay.</p>
@@ -304,18 +305,18 @@
                                         </div>
                                     </div><!-- featured-imagebox end-->
                                 </div>
-                                <div class="col-lg-4 col-md-6 project_item business education">
+                                <div class="col-lg-4 col-md-6 project_item business education Placements">
                                     <!-- featured-imagebox -->
                                     <div class="featured-imagebox featured-imagebox-tab">
                                         <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/tab/03.jpg')}}" alt="gallery-img">
+                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-chris-czermak-2444403.jpg')}}" alt="gallery-img">
                                             <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-nz flag-icon-squared"></span>
+                                                <span class="img-thumbnail flag-icon-it flag-icon-squared"></span>
                                             </div>
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3><a href="#">New Zealand</a></h3>
+                                                <h3><a href="#">Switzerland</a></h3>
                                             </div>
                                             <div class="featured-desc">
                                                 <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
@@ -323,19 +324,18 @@
                                         </div>
                                     </div><!-- featured-imagebox end-->
                                 </div>
-
-                                <div class="col-lg-4 col-md-6 project_item business education">
+                                <div class="col-lg-4 col-md-6 project_item business education student" >
                                     <!-- featured-imagebox -->
                                     <div class="featured-imagebox featured-imagebox-tab">
                                         <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/tab/0001_SG-Now.jpg')}}" alt="gallery-img">
+                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-michael-block-3225528.jpg')}}" alt="gallery-img">
                                             <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-sg flag-icon-squared"></span>
+                                                <span class="img-thumbnail flag-icon-es flag-icon-squared"></span>
                                             </div>
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3><a href="#">Singapore</a></h3>
+                                                <h3><a href="#">Italy</a></h3>
                                             </div>
                                             <div class="featured-desc">
                                                 <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
@@ -343,19 +343,18 @@
                                         </div>
                                     </div><!-- featured-imagebox end-->
                                 </div>
-
-                                <div class="col-lg-4 col-md-6 project_item business education">
+                                <div class="col-lg-4 col-md-6 project_item business education Placements">
                                     <!-- featured-imagebox -->
                                     <div class="featured-imagebox featured-imagebox-tab">
                                         <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" style="min-height:296px" src="{{asset('theme/images/tab/japan-best-cities-tokyo.jpg')}}" alt="gallery-img">
+                                            <img class="img-fluid" width="656" height="484" style="min-height:296px" src="{{asset('theme/images/pexels-lisa-fotios-2061751.jpg')}}" alt="gallery-img">
                                             <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-jp flag-icon-squared"></span>
+                                                <span class="img-thumbnail flag-icon-pt flag-icon-squared"></span>
                                             </div>
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3><a href="#">Japan</a></h3>
+                                                <h3><a href="#">Portugal</a></h3>
                                             </div>
                                             <div class="featured-desc">
                                                 <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
@@ -363,20 +362,18 @@
                                         </div>
                                     </div><!-- featured-imagebox end-->
                                 </div>
-
-
-                                <div class="col-lg-4 col-md-6 project_item business education">
+                                <div class="col-lg-4 col-md-6 project_item business education Placements">
                                     <!-- featured-imagebox -->
                                     <div class="featured-imagebox featured-imagebox-tab">
                                         <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" style="min-height:296px" src="{{asset('theme/images/tab/Nairobi-National-Park-6.jpg')}}" alt="gallery-img">
+                                            <img class="img-fluid" width="656" height="484" style="min-height:296px" src="{{asset('theme/images/pexels-alex-azabache-3254729.jpg')}}" alt="gallery-img">
                                             <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-ke flag-icon-squared"></span>
+                                                <span class="img-thumbnail flag-icon-es flag-icon-squared"></span>
                                             </div>
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3><a href="#">Kenya</a></h3>
+                                                <h3><a href="#">Spain</a></h3>
                                             </div>
                                             <div class="featured-desc">
                                                 <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
@@ -384,12 +381,7 @@
                                         </div>
                                     </div><!-- featured-imagebox end-->
                                 </div>
-
                             </div>
-                        </div>
-                        <br><br>
-                        <div class="mr-30 res-575-mr-0 text-center">
-                            <a style="border:2px solid #ffffff" class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-map-marker"></span> &nbsp; Explore More Countries</a>
                         </div>
                     </div>
                 </div>
@@ -527,149 +519,7 @@
 
 
 
-    <!-- testimonial-section -->
-    <section class="prt-row about01-testimonial-section bg-base-white clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!--section-title-->
-                    <div class="section-title title-style-center_text">
-                        <div class="title-header">
-                            <h3>Testimonials</h3>
-                            <h2 class="title">What our clients say <span>About us</span></h2>
-                        </div>
-                    </div><!--section-title end-->
-                </div>
-            </div>
-            <div class="row slick_slider" data-slick='{"slidesToShow": 2, "slidesToScroll": 1, "arrows":false, "dots":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 2}} , {"breakpoint":992,"settings":{"slidesToShow": 1}}, {"breakpoint":768,"settings":{"slidesToShow": 1}}]}'>
-                <div class="col-lg-6">
-                    <div class="testimonials style2 bg-grey">
-                        <div class="testimonial-wrapper">
-                            <div class="testimonial-info">
-                                <div class="testimonial-avatar">
-                                    <div class="testimonial-img">
-                                        <img class="img-fluid" src="{{asset('theme/images/testimonial/testimonial-6-150x150.jpg')}}" alt="testimonial-img" width="72" height="72">
-                                    </div>
-                                </div>
-                                <div class="testimonial-caption">
-                                    <h3>Dorline Daniels</h3>
-                                    <label>Student</label>
-                                    <div class="star-ratings prt-section-wrapper-cell">
-                                        <div class="star-ratings">
-                                            <ul class="rating">
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="testimonials style2 bg-grey">
-                        <div class="testimonial-wrapper">
-                            <div class="testimonial-info">
-                                <div class="testimonial-avatar">
-                                    <div class="testimonial-img">
-                                        <img class="img-fluid" src="{{asset('theme/images/testimonial/testimonial-6-150x150.jpg')}}" alt="testimonial-img" width="72" height="72">
-                                    </div>
-                                </div>
-                                <div class="testimonial-caption">
-                                    <h3>Tonny Mikes</h3>
-                                    <label>Student</label>
-                                    <div class="star-ratings prt-section-wrapper-cell">
-                                        <div class="star-ratings">
-                                            <ul class="rating">
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="testimonials style2 bg-grey">
-                        <div class="testimonial-wrapper">
-                            <div class="testimonial-info">
-                                <div class="testimonial-avatar">
-                                    <div class="testimonial-img">
-                                        <img class="img-fluid" src="{{asset('theme/images/testimonial/testimonial-6-150x150.jpg')}}" alt="testimonial-img" width="72" height="72">
-                                    </div>
-                                </div>
-                                <div class="testimonial-caption">
-                                    <h3>John Doe</h3>
-                                    <label>Student</label>
-                                    <div class="star-ratings prt-section-wrapper-cell">
-                                        <div class="star-ratings">
-                                            <ul class="rating">
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="testimonials style2 bg-grey">
-                        <div class="testimonial-wrapper">
-                            <div class="testimonial-info">
-                                <div class="testimonial-avatar">
-                                    <div class="testimonial-img">
-                                        <img class="img-fluid" src="{{asset('theme/images/testimonial/testimonial-6-150x150.jpg')}}" alt="testimonial-img" width="72" height="72">
-                                    </div>
-                                </div>
-                                <div class="testimonial-caption">
-                                    <h3>Sofia moreen</h3>
-                                    <label>Student</label>
-                                    <div class="star-ratings prt-section-wrapper-cell">
-                                        <div class="star-ratings">
-                                            <ul class="rating">
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                                <li class="active"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- testimonial-section-end -->
+
 
     <!-- why-us-section -->
     <section class="prt-row about01-why-us-section prt-bg prt-bgimage-yes bg-img2 bg-base-dark clearfix">
@@ -696,12 +546,14 @@
                                 </div>
                             </div>
                             <div class="featured-title">
-                                <h3>Our Mission</h3>
+                                <h3>Book a free professional consultation</h3>
                             </div>
                         </div>
                         <div class="featured-content">
                             <div class="featured-desc">
-                                <p>The leading global provider of Study and visa services with the required reach, agility and client commitment to enable corporations and individuals to more easily navigate complex regulations.</p>
+                                <p>
+                                    Hence talk to one of our counselors for the best career option suitable for you. They will take into account your academic history, your goals, budget and preferences to recommend the best option suitable for you.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -715,12 +567,14 @@
                                 </div>
                             </div>
                             <div class="featured-title">
-                                <h3>Our Vision</h3>
+                                <h3>Get your application documents together</h3>
                             </div>
                         </div>
                         <div class="featured-content">
                             <div class="featured-desc">
-                                <p>Provide information, orientation and Study outreach programs to help students, faculty, scholars and staff maintain legal Study status & to provide accurate and timely advice on Study.</p>
+                                <p>
+                                    Our professional team will assist you with assembling your documents, and then complete the application for you, giving you the highest possibility of acceptance.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -730,16 +584,67 @@
                         <div class="featured-icon-wrapper">
                             <div class="featured-icon">
                                 <div class="prt-icon prt-icon_element-onlytxt prt-icon_element-size-lg prt-icon_element-color-skincolor">
-                                    <i class="flaticon-coronavirus"></i>
+                                    <i class="fa fa-check"></i>
                                 </div>
                             </div>
                             <div class="featured-title">
-                                <h3>Our Strategy</h3>
+                                <h3>
+                                    Meet the conditions of your offer
+                                </h3>
                             </div>
                         </div>
                         <div class="featured-content">
                             <div class="featured-desc">
-                                <p>Responsible for strategies compliance with government regulations relating to the admission or hiring of international students, including management of the visitor Information System.</p>
+                                <p>
+                                    We can assist with essay writing, interview preparation, and English language instruction. We can authenticate documents because most of our partners consider us to be a preferred agent.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="featured-icon-box style6">
+                        <div class="featured-icon-wrapper">
+                            <div class="featured-icon">
+                                <div class="prt-icon prt-icon_element-onlytxt prt-icon_element-size-lg prt-icon_element-color-skincolor">
+                                    <i class="flaticon-visa"></i>
+                                </div>
+                            </div>
+                            <div class="featured-title">
+                                <h3>
+                                    Obtain a visa
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-desc">
+                                <p>
+                                    To give you the best possibility of being approved, our skilled visa staff completes applications after going through a two-stage verification procedure.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="featured-icon-box style6">
+                        <div class="featured-icon-wrapper">
+                            <div class="featured-icon">
+                                <div class="prt-icon prt-icon_element-onlytxt prt-icon_element-size-lg prt-icon_element-color-skincolor">
+                                    <i class="fa fa-plane"></i>
+                                </div>
+                            </div>
+                            <div class="featured-title">
+                                <h3>
+                                    Book your accommodation and flights
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-desc">
+                                <p>
+                                    Our staff is prepared to assist you choose a suitable place to stay, book a flight to the closest airport, and arrange transfers.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1055,6 +960,150 @@
             </div>
         </section>
         <!-- services02-second-section-end -->
+
+         <!-- testimonial-section -->
+    <section class="prt-row about01-testimonial-section bg-base-white clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--section-title-->
+                    <div class="section-title title-style-center_text">
+                        <div class="title-header">
+                            <h3>Testimonials</h3>
+                            <h2 class="title">What our students say <span>About us</span></h2>
+                        </div>
+                    </div><!--section-title end-->
+                </div>
+            </div>
+            <div class="row slick_slider" data-slick='{"slidesToShow": 2, "slidesToScroll": 1, "arrows":false, "dots":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 2}} , {"breakpoint":992,"settings":{"slidesToShow": 1}}, {"breakpoint":768,"settings":{"slidesToShow": 1}}]}'>
+                <div class="col-lg-6">
+                    <div class="testimonials style2 bg-grey">
+                        <div class="testimonial-wrapper">
+                            <div class="testimonial-info">
+                                <div class="testimonial-avatar">
+                                    <div class="testimonial-img">
+                                        <img class="img-fluid" src="{{asset('theme/images/testimonial/testimonial-6-150x150.jpg')}}" alt="testimonial-img" width="72" height="72">
+                                    </div>
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h3>Dorline Daniels</h3>
+                                    <label>Student</label>
+                                    <div class="star-ratings prt-section-wrapper-cell">
+                                        <div class="star-ratings">
+                                            <ul class="rating">
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-content">
+                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonials style2 bg-grey">
+                        <div class="testimonial-wrapper">
+                            <div class="testimonial-info">
+                                <div class="testimonial-avatar">
+                                    <div class="testimonial-img">
+                                        <img class="img-fluid" src="{{asset('theme/images/testimonial/testimonial-6-150x150.jpg')}}" alt="testimonial-img" width="72" height="72">
+                                    </div>
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h3>Tonny Mikes</h3>
+                                    <label>Student</label>
+                                    <div class="star-ratings prt-section-wrapper-cell">
+                                        <div class="star-ratings">
+                                            <ul class="rating">
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-content">
+                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonials style2 bg-grey">
+                        <div class="testimonial-wrapper">
+                            <div class="testimonial-info">
+                                <div class="testimonial-avatar">
+                                    <div class="testimonial-img">
+                                        <img class="img-fluid" src="{{asset('theme/images/testimonial/testimonial-6-150x150.jpg')}}" alt="testimonial-img" width="72" height="72">
+                                    </div>
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h3>John Doe</h3>
+                                    <label>Student</label>
+                                    <div class="star-ratings prt-section-wrapper-cell">
+                                        <div class="star-ratings">
+                                            <ul class="rating">
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-content">
+                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonials style2 bg-grey">
+                        <div class="testimonial-wrapper">
+                            <div class="testimonial-info">
+                                <div class="testimonial-avatar">
+                                    <div class="testimonial-img">
+                                        <img class="img-fluid" src="{{asset('theme/images/testimonial/testimonial-6-150x150.jpg')}}" alt="testimonial-img" width="72" height="72">
+                                    </div>
+                                </div>
+                                <div class="testimonial-caption">
+                                    <h3>Sofia moreen</h3>
+                                    <label>Student</label>
+                                    <div class="star-ratings prt-section-wrapper-cell">
+                                        <div class="star-ratings">
+                                            <ul class="rating">
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                                <li class="active"><i class="fa fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-content">
+                                <blockquote class="testimonial-text">Keep up the good work Unihub and keep helping others to make their dreams be fulfilled! Very thankful to the team.....</blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial-section-end -->
 
 
 </div><!-- site-main end-->
