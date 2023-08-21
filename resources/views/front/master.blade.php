@@ -8,7 +8,7 @@
 <meta name="description" content="Unihub Global Immigration Consulting">
 <meta name="author" content="https://unihubglobal.com/">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Unihub Global - Your number 1 Visa Partner</title>
+<title>Unihub Global - International Education services</title>
 
 <link rel="shortcut icon" href="{{asset('theme/images/favicon.png')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/bootstrap.min.css')}}">
@@ -24,6 +24,8 @@
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/twentytwenty.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/shortcodes.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/main.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('theme/css/whatsApp.css')}}">
+
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/megamenu.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/responsive.css')}}">
 <!-- REVOLUTION LAYERS STYLES -->
@@ -47,6 +49,8 @@
 
 </head>
 <body>
+
+    @include('front.whatsApp')
 
     <!-- page start -->
     <div class="page">
@@ -295,6 +299,79 @@
     <script src="{{asset('theme/revolution/js/rs6.min.js')}}"></script>
     <script src="{{asset('theme/revolution/js/slider.js')}}"></script>
     <!-- Javascript end-->
+
+    <script>
+        $('#whatsappForm').on('submit', function () {
+            $('#bookConsultationBtnwtsap').attr('disabled', 'true');
+        });
+    </script>
+
+    <script>
+        const enquiryContainer = document.getElementById('enquiryContainer')
+        const maForm = document.getElementById('mailForm')
+        const waForm = document.getElementById('whatsappForm')
+        // const mabtn = document.getElementById('ma-bttn')
+        // const wabtn = document.getElementById('wa-bttn')
+
+        window.onload =function() {
+            if(window.location.hash) {
+                var hash = window.location.hash.substring(1);
+                var msgSes = '@Session["message"]';
+                //console.log(hash);
+                // console.log(msgSes);
+                if( (hash == "mailForm") && (msgSes != "") ){
+                    maForm.classList.remove('d-none');
+                }
+            }
+        }
+
+        function enquiryToggle(button) {
+
+            if (button === "ma-bttn") {
+                // maForm.classList.toggle('d-none')
+                waForm.classList.add('d-none')
+            // console.log("mail in")
+
+            } else if (button === "wa-bttn") {
+                waForm.classList.toggle('d-none')
+                // maForm.classList.add('d-none')
+            // console.log("wassup in")
+
+            }
+        }
+
+
+        // Close the forms when clicked outside
+        window.addEventListener("click", (e) => {
+
+            // console.log(e.target)
+
+            if ($(e.target).is("#mailForm") || $(e.target).is("#whatsappForm") || $(e.target).is("#enquiryContainer")) {
+                return;
+            }
+
+            // console.log('clicked outside')
+            waForm.classList.add('d-none')
+            // maForm.classList.add('d-none')
+
+
+        });
+
+
+        $("#enquiryContainer div").click(function (e) {
+        // Do something
+        e.stopPropagation();
+        });
+        $("#whatsappForm").click(function (e) {
+        // Do something
+        e.stopPropagation();
+        });
+        $("#mailForm").click(function (e) {
+        // Do something
+        e.stopPropagation();
+        });
+
+    </script>
 
 </body>
 

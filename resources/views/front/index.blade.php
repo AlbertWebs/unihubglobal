@@ -67,7 +67,7 @@
                     data-frame_999="o:0;st:w;sR:7910;"
                     data-frame_hover="c:#fff;bgc:#003760;boc:#003760;bor:50px,50px,50px,50px;bos:solid;bow:2px,2px,2px,2px;e:default;"
                     style="z-index:11;background-color:#84eca6;font-family:'Poppins';"
-                ><span class="fa fa-calendar"></span> &nbsp;Book an Appointment
+                ><span class="fa fa-calendar"></span> &nbsp;Book a Consultation
                 </a>
 
                 <a
@@ -127,7 +127,7 @@
                             <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-skincolor" href="services-1.html">Explore More</a>
                         </div> --}}
                         <div class="mr-30 res-575-mr-0">
-                            <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book an appointment</a>
+                            <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book a Consultation</a>
                         </div>
                     </div>
                 </div>
@@ -758,7 +758,7 @@
 
                     <h2 class="txt-primary mb-4">Explore studying abroad with expert guidance. Book a consultation to unlock your international education opportunities.</h2>
 
-                    <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book an appointment</a>
+                    <a class="prt-btn prt-btn-size-sm prt-btn-shape-round prt-btn-style-fill prt-btn-color-dark" href="#"><span class="fa fa-calendar"></span> &nbsp; Book a Consultation</a>
 
                 </div>
 
