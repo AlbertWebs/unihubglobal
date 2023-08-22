@@ -35,7 +35,7 @@
 <div class="site-main">
 
     <!--services-section-->
-    <section class="prt-row service01-services-section clearfix">
+    {{-- <section class="prt-row service01-services-section clearfix">
         <div class="prt-row-wrapper-bg-layer prt-bg-layer"></div>
         <div class="container">
             <div class="row">
@@ -245,7 +245,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--services-section end-->
 
 </div><!-- site-main end-->
