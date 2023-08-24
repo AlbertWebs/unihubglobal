@@ -190,28 +190,28 @@
                                         <h3>Quick Links</h3>
                                     </div>
                                     <ul class="menu-footer-quick-links">
-                                        <li><a href="#"><i class="fa fa-plus"></i>Portugal</a></li>
-                                        <li><a href="#"><i class="fa fa-plus"></i>Spain</a></li>
-                                        <li><a href="#"><i class="fa fa-plus"></i>Marketing</a></li>
-                                        <li><a href="#"><i class="fa fa-plus"></i>Management</a></li>
-                                        <li class="last-link"><a href="#"><i class="fa fa-plus"></i>USA</a></li>
-                                        <li class="last-link"><a href="#"><i class="fa fa-plus"></i>Design</a></li>
+                                        <?php
+                                            $Study = DB::table('studies')->get();
+                                        ?>
+                                        @foreach ($Study as $study)
+                                        <li><a href="{{url('/')}}/study-abroad/{{$study->slung}}"><i class="fa fa-plus"></i>{{$study->country}}</a></li>
+                                        @endforeach
                                     </ul>
                                 </div>
                                 <div class="widget_social">
                                     <div class="social-icons social-hover">
                                         <ul class="social-icons d-flex">
                                             <li>
-                                                <a class="prt-social-linkedin" href="https://www.linkedin.com/company/themetech-mount/" rel="noopener" aria-label="google"><i class="icon-linkedin"></i></a>
+                                                <a class="prt-social-linkedin" href="https://www.linkedin.com/company/" rel="noopener" aria-label="google"><i class="icon-linkedin"></i></a>
                                             </li>
                                             <li>
-                                                <a class="prt-social-instagram" href="https://www.instagram.com/theme_tech_mount/" aria-label="instagram"><i class="icon-instagram"></i></a>
+                                                <a class="prt-social-instagram" href="https://www.instagram.com/" aria-label="instagram"><i class="icon-instagram"></i></a>
                                             </li>
                                             <li>
-                                                <a class="prt-social-facebook" href="https://www.facebook.com/themetechMount18" rel="noopener" aria-label="facebook"><i class="icon-facebook"></i></a>
+                                                <a class="prt-social-facebook" href="https://www.facebook.com/" rel="noopener" aria-label="facebook"><i class="icon-facebook"></i></a>
                                             </li>
                                             <li>
-                                                <a class="prt-social-twitter" href="https://twitter.com/themetechmount" rel="noopener" aria-label="twitter"><i class="icon-twitter"></i></a>
+                                                <a class="prt-social-twitter" href="https://twitter.com/" rel="noopener" aria-label="twitter"><i class="icon-twitter"></i></a>
                                             </li>
                                             <li>
                                                 <a class="prt-social-instagram" href="https://youtube.com" rel="noopener" aria-label="youtube"><i class="icon-youtube"></i></a>

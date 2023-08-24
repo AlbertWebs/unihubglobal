@@ -16,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('front.index');
 });
-
+Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
 Route::get('/study-abroad', [App\Http\Controllers\StudyController::class, 'index'])->name('study-aborad');
 Route::get('/study-abroad/{slung}', [App\Http\Controllers\StudyController::class, 'show'])->name('show-study-aborad');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
