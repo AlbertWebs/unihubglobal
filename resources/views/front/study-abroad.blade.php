@@ -18,7 +18,7 @@
                         <div class="breadcrumb-wrapper">
                             <i class="flaticon-home"></i>
                             <span>
-                                <a title="Homepage" href="index.html">Home</a>
+                                <a title="Homepage" href="{{url('/')}}">Home</a>
                             </span>
                             <div class="prt-sep"> - </div>
                             <span>services</span>
@@ -34,219 +34,98 @@
 <!--site-main start-->
 <div class="site-main">
 
-    <!--services-section-->
-    {{-- <section class="prt-row service01-services-section clearfix">
-        <div class="prt-row-wrapper-bg-layer prt-bg-layer"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-services style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="images/services/services-1-896x590.png" alt="blog_img">
-                        </div><!-- featured-thumbnail end-->
-                        <div class="featured-details-wrap">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="job-visa.html" tabindex="0">Job Visa</a></h3>
-                                </div>
-                            </div>
-                            <div class="featured-explore-more">
-                                <a href="job-visa.html">explore more</a>
+    <!-- services01-second-section -->
+    <section class="prt-row padding_top_zero-sectiond services01-second-section clearfix">
+        <div class="container-fluid">
+            <div class="row g-0 row-equal-height prt-vertical_sep style2">
+                <div class="col-lg-3 col-md-4 col-sm-8 col-12">
+                    <div class="featured-icon-box style10 bg-base-skin res-575-pt-40">
+                        <div class="featured-icon">
+                            <div class="prt-icon prt-icon_element-size-md">
+                                <i class="fa fa-globe"></i>
                             </div>
                         </div>
-                        <div class="services-details-wrap">
-                            <div class="services-details-box">
-                                <div class="services-content">
-                                    <div class="services-title">
-                                        <h3><a href="job-visa.html" tabindex="0">Job Visa</a></h3>
-                                    </div>
-                                    <div class="services-desc">
-                                        <p>Visa that grants the holder authorization to accept work employment in a foreign countries…</p>
-                                    </div>
-                                </div>
-                                <div class="services-explore-more">
-                                    <a href="job-visa.html">explore more</a>
-                                </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3>GLOBAL EDGE</h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>
+                                    The quality of education provided by {{$study->country}} academic institutions is acknowledged worldwide.<br>
+                                    The teaching forces of these institutions are leading authorities in their respective fields.<br>
+                                    The quality of the research programs along with the resources available and the faculty ensures that the institutions have high standards.<br>
+                                </p>
                             </div>
                         </div>
-                    </div><!-- featured-imagebox-post end -->
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-services style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="images/services/services-2-896x590.png" alt="blog_img">
-                        </div><!-- featured-thumbnail end-->
-                        <div class="featured-details-wrap">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="business-visa.html" tabindex="0">Business Visa</a></h3>
-                                </div>
-                            </div>
-                            <div class="featured-explore-more">
-                                <a href="business-visa.html">explore more</a>
+                <div class="col-lg-3 col-md-4 col-sm-8 col-12">
+                    <div class="featured-icon-box style10 bg-base-dark">
+                        <div class="featured-icon">
+                            <div class="prt-icon prt-icon_element-size-md">
+                                <i class="fa fa-check"></i>
                             </div>
                         </div>
-                        <div class="services-details-wrap">
-                            <div class="services-details-box">
-                                <div class="services-content">
-                                    <div class="services-title">
-                                        <h3><a href="business-visa.html" tabindex="0">Business Visa</a></h3>
-                                    </div>
-                                    <div class="services-desc">
-                                        <p>Generally intended for individuals entering a country for the purposes of conducting business…</p>
-                                    </div>
-                                </div>
-                                <div class="services-explore-more">
-                                    <a href="business-visa.html">explore more</a>
-                                </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3>MORE CHOICE</h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>
+                                    More than 4000 institutions offer undergraduate, post graduate and doctorate degrees.<br>
+                                    One can specialize in any desired area of focus.<br>
+                                    The {{$study->country}} education system has variety of academic & social environments which allow the student to build up in all aspects.
+                                </p>
                             </div>
                         </div>
-                    </div><!-- featured-imagebox-post end -->
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-services style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="images/services/services-3-896x590.png" alt="blog_img">
-                        </div><!-- featured-thumbnail end-->
-                        <div class="featured-details-wrap">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="diplomatic-visa.html" tabindex="0">Diplomatic Visa</a></h3>
-                                </div>
-                            </div>
-                            <div class="featured-explore-more">
-                                <a href="diplomatic-visa.html">explore more</a>
+                <div class="col-lg-3 col-md-4 col-sm-8 col-12">
+                    <div class="featured-icon-box style10 bg-base-grey">
+                        <div class="featured-icon">
+                            <div class="prt-icon prt-icon_element-size-md">
+                                <i class="fa fa-money"></i>
                             </div>
                         </div>
-                        <div class="services-details-wrap">
-                            <div class="services-details-box">
-                                <div class="services-content">
-                                    <div class="services-title">
-                                        <h3><a href="diplomatic-visa.html" tabindex="0">Diplomatic Visa</a></h3>
-                                    </div>
-                                    <div class="services-desc">
-                                        <p>Visa that grants the holder authorization to accept work employment in a foreign countries…</p>
-                                    </div>
-                                </div>
-                                <div class="services-explore-more">
-                                    <a href="diplomatic-visa.html">explore more</a>
-                                </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3>AFFORDABLE</h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>
+                                    A high-quality education provides excellent groundwork for one's future.<br>
+                                    Gain practical experience alongside your studies with the opportunity to work part-time weekly during the course and full-time during breaks.<br>
+                                    Various forms of financial support such as aid, scholarships, and assistantships make education more accessible.<br>
+                                </p>
                             </div>
                         </div>
-                    </div><!-- featured-imagebox-post end -->
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-services style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="images/services/services-4-896x590.png" alt="blog_img">
-                        </div><!-- featured-thumbnail end-->
-                        <div class="featured-details-wrap">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="worker-visa.html" tabindex="0">Worker Visa</a></h3>
-                                </div>
-                            </div>
-                            <div class="featured-explore-more">
-                                <a href="worker-visa.html">explore more</a>
+                <div class="col-lg-3 col-md-4 col-sm-8 col-12">
+                    <div class="featured-icon-box style10 bg-base-light res-575-pb-40">
+                        <div class="featured-icon">
+                            <div class="prt-icon prt-icon_element-size-md">
+                                <i class="fa fa-lightbulb-o "></i>
                             </div>
                         </div>
-                        <div class="services-details-wrap">
-                            <div class="services-details-box">
-                                <div class="services-content">
-                                    <div class="services-title">
-                                        <h3><a href="worker-visa.html" tabindex="0">Worker Visa</a></h3>
-                                    </div>
-                                    <div class="services-desc">
-                                        <p>Generally intended for individuals entering a country for the purposes of conducting business…</p>
-                                    </div>
-                                </div>
-                                <div class="services-explore-more">
-                                    <a href="worker-visa.html">explore more</a>
-                                </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3>FLEXIBLE</h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>
+                                    The education system in question offers great flexibility in selecting courses at the college or university level.<br>
+                                    Students have the option to switch from one course or academic track to another, as well as transfer between different educational institutions.<br>
+                                    This characteristic sets apart this education system from those in various other nations.<br>
+                                </p>
                             </div>
                         </div>
-                    </div><!-- featured-imagebox-post end -->
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-services style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="images/services/services-2-896x590.png" alt="blog_img">
-                        </div><!-- featured-thumbnail end-->
-                        <div class="featured-details-wrap">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="free-visa.html" tabindex="0">Free Visa Enquiry</a></h3>
-                                </div>
-                            </div>
-                            <div class="featured-explore-more">
-                                <a href="free-visa.html">explore more</a>
-                            </div>
-                        </div>
-                        <div class="services-details-wrap">
-                            <div class="services-details-box">
-                                <div class="services-content">
-                                    <div class="services-title">
-                                        <h3><a href="free-visa.html" tabindex="0">Free Visa Enquiry</a></h3>
-                                    </div>
-                                    <div class="services-desc">
-                                        <p>Visa that grants the holder authorization to accept work employment in a foreign countries…</p>
-                                    </div>
-                                </div>
-                                <div class="services-explore-more">
-                                    <a href="free-visa.html">explore more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox-post end -->
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <!-- featured-imagebox-post -->
-                    <div class="featured-imagebox featured-imagebox-services style1">
-                        <!-- featured-thumbnail -->
-                        <div class="featured-thumbnail">
-                            <img class="img-fluid" src="images/services/services-6-896x590.png" alt="blog_img">
-                        </div><!-- featured-thumbnail end-->
-                        <div class="featured-details-wrap">
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h3><a href="student-visa.html" tabindex="0">Student Visas</a></h3>
-                                </div>
-                            </div>
-                            <div class="featured-explore-more">
-                                <a href="student-visa.html">explore more</a>
-                            </div>
-                        </div>
-                        <div class="services-details-wrap">
-                            <div class="services-details-box">
-                                <div class="services-content">
-                                    <div class="services-title">
-                                        <h3><a href="student-visa.html" tabindex="0">Student Visas</a></h3>
-                                    </div>
-                                    <div class="services-desc">
-                                        <p>Generally intended for individuals entering a country for the purposes of conducting business…</p>
-                                    </div>
-                                </div>
-                                <div class="services-explore-more">
-                                    <a href="student-visa.html">explore more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- featured-imagebox-post end -->
+                    </div>
                 </div>
             </div>
         </div>
-    </section> --}}
-    <!--services-section end-->
+    </section>
+    <!-- services01-second-section-end -->
 
 </div><!-- site-main end-->
 @endforeach
