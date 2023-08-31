@@ -5,29 +5,20 @@
 
 
   <!-- page-title -->
-  <div class="prt-titlebar-wrapper prt-bg service-img" style="position: relative; margin-top:80px">
-    <div class="prt-titlebar-wrapper-bg-layer prt-bg-layer"></div>
-    <div class="prt-titlebar-wrapper-inner">
+  <div class="" style="position: relative; margin-top:180px">
+
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="prt-page-title-row-heading">
-                        <div class="page-title-heading">
-                            <h2 class="title">{{$study->title}}</h2>
-                        </div>
-                        <div class="breadcrumb-wrapper">
-                            <i class="flaticon-home"></i>
-                            <span>
-                                <a title="Homepage" href="{{url('/')}}">Home</a>
-                            </span>
-                            <div class="prt-sep"> - </div>
-                            <span>services</span>
+                        <div class="page-title-heading" style="text-align: center; color:#365cf1 !important">
+                            <h2 style="text-align: center; color:#365cf1 !important; font-weight:100" class="title">{{$study->title}}</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
 </div>
 <!-- page-title end -->
 
@@ -126,6 +117,47 @@
         </div>
     </section>
     <!-- services01-second-section-end -->
+
+            <!-- immigration-and-services-section -->
+            <section class="prt-row home01-immigration-and-services-section clearfix">
+                <div class="container" data-aos="fade-up">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-10 m-auto">
+                            <!--section-title-->
+                            <div class="section-title title-style-center_text">
+                                <div class="title-header">
+                                    <h2 class="title" style="text-align: center; color:#365cf1 !important; font-weight:100">OUR {{$study->country}} PARTNERS <span> </span></h2>
+                                </div>
+                            </div><!--section-title end-->
+                        </div>
+                    </div>
+                    <?php
+                       $Universities = DB::table('universities')->where('country',$study->country)->get();
+                    ?>
+                    <div class="row mt_15">
+                        @foreach ($Universities as $uni)
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!-- featured-imagebox -->
+                            <div class="featured-imagebox featured-imagebox-portfolio style4" >
+                                <div class="featured-imagebox-wrapper">
+                                    <div class="featured-thumbnail" style="border: none">
+                                        <img style="max-height:216px;" width="656" height="484" class="img-fluid" src="{{url('/')}}/uploads/universities/{{$uni->image}}" alt="image">
+                                    </div>
+                                </div>
+                            </div><!-- featured-imagebox end-->
+                            <div style="text-align: center">
+                                <h4 style="min-height: 60px;">{{$uni->name}}</h4>
+                                <h6>
+                                    {{$uni->country}}
+                                </h6>
+                                <a class="prt-btn prt-btn-size-sm prt-btn-shape-square prt-btn-style-fill prt-btn-color-skincolor" href="{{url('/')}}/study-abroad/{{$study->country}}/{{$uni->slung}}" tabindex="0">Learn More</a>
+                            </div>
+                        </div>
+                        @endforeach
+                    </div>
+                </div>
+            </section>
+            <!-- immigration-and-services-section-end -->
 
 </div><!-- site-main end-->
 @endforeach

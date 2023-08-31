@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreStudyRequest;
-use App\Http\Requests\UpdateStudyRequest;
-use App\Models\Study;
+use App\Http\Requests\StoreUniversityRequest;
+use App\Http\Requests\UpdateUniversityRequest;
+use App\Models\University;
 
-class StudyController extends Controller
+class UniversityController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -27,7 +27,7 @@ class StudyController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreStudyRequest $request)
+    public function store(StoreUniversityRequest $request)
     {
         //
     }
@@ -35,22 +35,15 @@ class StudyController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show($study)
+    public function show(University $university)
     {
-        $Study = Study::where('slung',$study)->get();
-        return view('front.study-abroad',compact('Study'));
-    }
-
-    public function show_apply($study)
-    {
-        $Study = Study::where('slung',$study)->get();
-        return view('front.show_apply',compact('Study'));
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Study $study)
+    public function edit(University $university)
     {
         //
     }
@@ -58,7 +51,7 @@ class StudyController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateStudyRequest $request, Study $study)
+    public function update(UpdateUniversityRequest $request, University $university)
     {
         //
     }
@@ -66,7 +59,7 @@ class StudyController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Study $study)
+    public function destroy(University $university)
     {
         //
     }
