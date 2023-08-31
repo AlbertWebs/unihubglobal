@@ -98,7 +98,7 @@
                                 <h3>call us on</h3>
                             </div>
                             <div class="featured-desc">
-                                <a href="tel:+351 931 371 105">+351 931 371 105</a>
+                                <a href="tel:+351 913 531 537">+351 913 531 537</a>
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
                                         <label>Address:</label><span>Nb St, Lisbon, Portugal</span>
                                     </li>
                                     <li>
-                                        <label>Contact Number:</label><a href="tel:+351 931 371 105">+351 931 371 105</a>
+                                        <label>Contact Number:</label><a href="tel:+351 913 531 537">+351 913 531 537</a>
                                     </li>
                                     <li>
                                         <label>Email Us:</label><a href="mailto:supportrt@example.com">supportrt@example.com</a>
@@ -216,7 +216,7 @@
                                         <label>Address:</label><span>Priana St Porto, Portugal</span>
                                     </li>
                                     <li>
-                                        <label>Contact Number:</label><a href="tel:+351 931 371 105">+351 931 371 105</a>
+                                        <label>Contact Number:</label><a href="tel:+351 913 531 537">+351 913 531 537</a>
                                     </li>
                                     <li>
                                         <label>Email Us:</label><a href="mailto:supportrt@example.com">supportrt@example.com</a>

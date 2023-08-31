@@ -153,7 +153,7 @@
                                                     </div>
                                                     <div class="widget_content">
                                                         <h3 class="widget_title">Free Consultation</h3>
-                                                        <p><a href="tel:1234567890">+351 931 371 105</a></p>
+                                                        <p><a href="tel:1234567890">+351 913 531 537</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -230,7 +230,7 @@
                                     </div>
                                     <div class="res-767-pb-18">
                                         <p>144, First Floor, 12 St Louis Cave, Portugal 6825.</p>
-                                        <p>Front Desk: <strong><a href="tel:+351 931 371 105">+351 931 371 105</a></strong></p>
+                                        <p>Front Desk: <strong><a href="tel:+351 913 531 537">+351 913 531 537</a></strong></p>
                                         <p>Email: <strong><a href="mailto:info@unihubglobal.com">info@unihubglobal.com</a></strong></p>
                                         <a class="prt-btn prt-btn-size-md fw-400 prt-btn-color-white btn-inline mt-25" href="{{url('/')}}/about-us"> view all countries </a>
                                     </div>
@@ -260,7 +260,7 @@
                                 </div>
                                 <div class="description">
                                     <h3>Give Wings to Your Dream</h3>
-                                    <p>Call Us On: <a href="tel:+351 931 371 105"> +351 931 371 105</a></p>
+                                    <p>Call Us On: <a href="tel:+351 913 531 537"> +351 913 531 537</a></p>
                                 </div>
                             </div>
                         </div>
