@@ -88,6 +88,8 @@
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Study Abroad</a>
                                                     <ul class="mega-submenu">
+                                                        <li><a href="{{url('/')}}/distance-study">Distance Study</a></li>
+                                                        <li><a href="{{url('/')}}/make-an-application">Make an Application</a></li>
                                                         <?php
                                                            $Studies = DB::table('studies')->get();
                                                         ?>
@@ -95,6 +97,9 @@
                                                         <li><a href="{{url('/')}}/study-abroad/{{$studies->slung}}">{{$studies->title}}</a></li>
                                                         @endforeach
                                                     </ul>
+                                                </li>
+                                                <li class="mega-menu-item">
+                                                    <a href="#" class="mega-menu-link">Distance Study</a>
                                                 </li>
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Degree</a>
@@ -105,19 +110,7 @@
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Adventure Tours</a>
                                                 </li>
-                                                {{-- <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Countries</a>
-                                                    <ul class="mega-submenu">
-                                                        <li><a href="#">New Zeeland</a></li>
-                                                        <li><a href="#">Singapore</a></li>
-                                                        <li><a href="#">UAE</a></li>
-                                                        <li><a href="#">UK</a></li>
-                                                        <li><a href="#">Australia</a></li>
-                                                        <li><a href="#">Canada</a></li>
-                                                        <li><a href="#">India</a></li>
-                                                        <li><a href="#">Malta</a></li>
-                                                    </ul>
-                                                </li> --}}
+
 
 
                                                 <li class="mega-menu-item">

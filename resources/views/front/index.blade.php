@@ -241,9 +241,21 @@
     </section> --}}
     <!-- top-section-end -->
 
-    <!-- services-section -->
-    <section class="prt-row home03-services-section bg-base-grey clearfix">
+      <!--service-type-third-section-->
+      <section class="prt-row service-type04-third-section clearfix bg-base-grey ">
         <div class="container">
+            {{-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-title mb-30">
+                        <div class="service-header">
+                            <h3>Cources we offered</h3>
+                        </div>
+                        <div class="service-desc">
+                            <p class="mb-0">You are nothing witout your set eyes care set  injury magna consectr elit, do eiusmod tempor incididunt or ut labore areas disease eyecare dolore aliqua. Ut enim adet minim veniam, and quis nostrud exercitation produrYou are nothing witout your set eyes care set  injury magna consectr.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> --}}
             <div class="row">
                 <div class="col-lg-12">
                     <!--section-title -->
@@ -254,144 +266,111 @@
                     </div><!--section-title-end -->
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="prt-tabs slider-tab">
-                        <ul class="tabs portfolio-filter text-center">
-                            <li class="tab active"><a href="#" data-filter=".student">Student</a></li>
-                            <li class="tab"><a href="#" data-filter=".business">Direct Registration</a></li>
-                            <li class="tab"><a href="#" data-filter=".education">Migration</a></li>
-                            <li class="tab"><a href="#" data-filter=".Study">Visa Services</a></li>
-                            <li class="tab"><a href="#" data-filter=".Placements">Placements</a></li>
-                            {{-- <li class="tab"><a href="#" data-filter="*">All</a></li> --}}
-                        </ul>
-                        <div class="content-tab" style="margin: 0 auto">
-                            <div class="row isotope-project" >
-                                <div class="col-lg-4 col-md-6 project_item business Study student">
-                                    <!-- featured-imagebox -->
-                                    <div class="featured-imagebox featured-imagebox-tab">
-                                        <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-josh-hild-2422588.jpg')}}" alt="gallery-img">
-                                            <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-us flag-icon-squared"></span>
-                                            </div>
-                                        </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h3><a href="france.html">USA</a></h3>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p>
-                                                    The USA has made a name for itself as a center of global education thanks to its illustrious colleges, varied culture, and limitless chances. Here are five strong arguments for why the United States should be at the top of your list if you're thinking about studying abroad.
-
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div><!-- featured-imagebox end-->
-                                </div>
-                                <div class="col-lg-4 col-md-6 project_item education Study Placements student">
-                                    <!-- featured-imagebox -->
-                                    <div class="featured-imagebox featured-imagebox-tab">
-                                        <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-nadi-lindsay-2421179.jpg')}}" alt="gallery-img">
-                                            <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-gb flag-icon-squared"></span>
-                                            </div>
-                                        </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h3><a href="england.html">UK</a></h3>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p>We will help you with every step of the process of Study,millions of decisions about who has the right to visit or stay.</p>
-                                            </div>
-                                        </div>
-                                    </div><!-- featured-imagebox end-->
-                                </div>
-                                <div class="col-lg-4 col-md-6 project_item business education Placements">
-                                    <!-- featured-imagebox -->
-                                    <div class="featured-imagebox featured-imagebox-tab">
-                                        <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-chris-czermak-2444403.jpg')}}" alt="gallery-img">
-                                            <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-it flag-icon-squared"></span>
-                                            </div>
-                                        </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h3><a href="#">Switzerland</a></h3>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
-                                            </div>
-                                        </div>
-                                    </div><!-- featured-imagebox end-->
-                                </div>
-                                <div class="col-lg-4 col-md-6 project_item business education student" >
-                                    <!-- featured-imagebox -->
-                                    <div class="featured-imagebox featured-imagebox-tab">
-                                        <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-michael-block-3225528.jpg')}}" alt="gallery-img">
-                                            <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-es flag-icon-squared"></span>
-                                            </div>
-                                        </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h3><a href="#">Italy</a></h3>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
-                                            </div>
-                                        </div>
-                                    </div><!-- featured-imagebox end-->
-                                </div>
-                                <div class="col-lg-4 col-md-6 project_item business education Placements">
-                                    <!-- featured-imagebox -->
-                                    <div class="featured-imagebox featured-imagebox-tab">
-                                        <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" style="min-height:296px" src="{{asset('theme/images/pexels-lisa-fotios-2061751.jpg')}}" alt="gallery-img">
-                                            <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-pt flag-icon-squared"></span>
-                                            </div>
-                                        </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h3><a href="#">Portugal</a></h3>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
-                                            </div>
-                                        </div>
-                                    </div><!-- featured-imagebox end-->
-                                </div>
-                                <div class="col-lg-4 col-md-6 project_item business education Placements">
-                                    <!-- featured-imagebox -->
-                                    <div class="featured-imagebox featured-imagebox-tab">
-                                        <div class="featured-thumbnail">
-                                            <img class="img-fluid" width="656" height="484" style="min-height:296px" src="{{asset('theme/images/pexels-alex-azabache-3254729.jpg')}}" alt="gallery-img">
-                                            <div class="featured-flag-box">
-                                                <span class="img-thumbnail flag-icon-es flag-icon-squared"></span>
-                                            </div>
-                                        </div>
-                                        <div class="featured-content">
-                                            <div class="featured-title">
-                                                <h3><a href="#">Spain</a></h3>
-                                            </div>
-                                            <div class="featured-desc">
-                                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
-                                            </div>
-                                        </div>
-                                    </div><!-- featured-imagebox end-->
-                                </div>
+            <div class="row slick_slider" data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows":true, "dots":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":1024,"settings":{"slidesToShow": 2}} , {"breakpoint":991,"settings":{"slidesToShow": 2}}, {"breakpoint":575,"settings":{"slidesToShow": 1}}]}'>
+                <div class="col-lg-4 col-md-6 project_item business Study student">
+                    <!-- featured-imagebox -->
+                    <div class="featured-imagebox featured-imagebox-tab">
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-josh-hild-2422588.jpg')}}" alt="gallery-img">
+                            <div class="featured-flag-box">
+                                <span class="img-thumbnail flag-icon-us flag-icon-squared"></span>
                             </div>
                         </div>
-                    </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3><a href="france.html">USA</a></h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>
+                                    The USA has made a name for itself as a center of global education thanks to its illustrious colleges, varied culture, and limitless chances. Here are five strong arguments for why the United States should be at the top of your list if you're thinking about studying abroad.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox end-->
+                </div>
+                <div class="col-lg-4 col-md-6 project_item business education Placements">
+                    <!-- featured-imagebox -->
+                    <div class="featured-imagebox featured-imagebox-tab">
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-chris-czermak-2444403.jpg')}}" alt="gallery-img">
+                            <div class="featured-flag-box">
+                                <span class="img-thumbnail flag-icon-it flag-icon-squared"></span>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3><a href="#">Switzerland</a></h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox end-->
+                </div>
+                <div class="col-lg-4 col-md-6 project_item business education student" >
+                    <!-- featured-imagebox -->
+                    <div class="featured-imagebox featured-imagebox-tab">
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" width="656" height="484" src="{{asset('theme/images/pexels-michael-block-3225528.jpg')}}" alt="gallery-img">
+                            <div class="featured-flag-box">
+                                <span class="img-thumbnail flag-icon-es flag-icon-squared"></span>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3><a href="#">Italy</a></h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox end-->
+                </div>
+                <div class="col-lg-4 col-md-6 project_item business education Placements">
+                    <!-- featured-imagebox -->
+                    <div class="featured-imagebox featured-imagebox-tab">
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" width="656" height="484" style="min-height:296px" src="{{asset('theme/images/pexels-lisa-fotios-2061751.jpg')}}" alt="gallery-img">
+                            <div class="featured-flag-box">
+                                <span class="img-thumbnail flag-icon-pt flag-icon-squared"></span>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3><a href="#">Portugal</a></h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox end-->
+                </div>
+                <div class="col-lg-4 col-md-6 project_item business education Placements">
+                    <!-- featured-imagebox -->
+                    <div class="featured-imagebox featured-imagebox-tab">
+                        <div class="featured-thumbnail">
+                            <img class="img-fluid" width="656" height="484" style="min-height:296px" src="{{asset('theme/images/pexels-alex-azabache-3254729.jpg')}}" alt="gallery-img">
+                            <div class="featured-flag-box">
+                                <span class="img-thumbnail flag-icon-es flag-icon-squared"></span>
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <div class="featured-title">
+                                <h3><a href="#">Spain</a></h3>
+                            </div>
+                            <div class="featured-desc">
+                                <p>Apply to travel, study, work or immigrate citizenship or PR,millions of decisions about who has the right to visit or stay.</p>
+                            </div>
+                        </div>
+                    </div><!-- featured-imagebox end-->
                 </div>
             </div>
         </div>
     </section>
-    <!-- services-section-end -->
+    <!--services-section end-->
+
+
 
 
 
@@ -519,13 +498,152 @@
     </section> --}}
     <!-- service-section-end -->
 
+     <!-- service-type-second-section  -->
+     <section class="prt-row service-type02-second-section clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-title bg-base-skin text-center mt-0">
+                        <div class="service-header p-25">
+                            <h3 class="text-base-white mb-0">Five Easy Steps:</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="prt-stepbox-wrapper bg-base-grey">
+                        <div class="prt-stepbox">
+                            <div class="row">
+                                <div class="col-md-6 align-self-center">
+                                    <div class="stepbox-content">
+                                        <div class="stepbox-info">
+                                            <span>Step One:</span>
+                                            <div class="featured-title"><h3>Book a free professional consultation</h3></div>
+                                            <div class="prt-box-description">
+                                                <p>
+                                                    Hence talk to one of our counselors for the best career option suitable for you. They will take into account your academic history, your goals, budget and preferences to recommend the best option suitable for you.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 align-self-center">
+                                    <div class="prt-box-image">
+                                        <div class="prt-stepbox-image">
+                                            <img class="img-fluid" src="{{asset('uploads/steps/consultations.jpg')}}" alt="step-one">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prt-stepbox">
+                            <div class="row">
+                                <div class="col-md-6 align-self-center">
+                                    <div class="prt-box-image">
+                                        <div class="prt-stepbox-image">
+                                            <img class="img-fluid" src="{{asset('uploads/steps/documents.jpg')}}" alt="step-two">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 align-self-center">
+                                    <div class="stepbox-content">
+                                        <div class="stepbox-info">
+                                            <span>Step Two:</span>
+                                            <div class="featured-title"><h3>Get your application documents together</h3></div>
+                                            <div class="prt-box-description">
+                                                <p>
+                                                    Our professional team will assist you with assembling your documents, and then complete the application for you, giving you the highest possibility of acceptance
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prt-stepbox">
+                            <div class="row">
+                                <div class="col-md-6 align-self-center">
+                                    <div class="stepbox-content">
+                                        <div class="stepbox-info">
+                                            <span>Step Three:</span>
+                                            <div class="featured-title"><h3>Meet the conditions of your offer</h3></div>
+                                            <div class="prt-box-description">
+                                                <p>
+                                                    We can assist with essay writing, interview preparation, and English language instruction. We can authenticate documents because most of our partners consider us to be a preferred agent.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 align-self-center">
+                                    <div class="prt-box-image">
+                                        <div class="prt-stepbox-image">
+                                            <img class="img-fluid" src="{{asset('uploads/steps/conditions.jpg')}}" alt="step-three">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prt-stepbox">
+                            <div class="row">
+                                <div class="col-md-6 align-self-center">
+                                    <div class="prt-box-image">
+                                        <div class="prt-stepbox-image">
+                                            <img class="img-fluid" src="{{asset('theme/images/stepbox/01.png')}}" alt="step-four">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 align-self-center">
+                                    <div class="stepbox-content">
+                                        <div class="stepbox-info">
+                                            <span>Step Four:</span>
+                                            <div class="featured-title"><h3>Obtain a visa</h3></div>
+                                            <div class="prt-box-description">
+                                                <p>
+                                                    To give you the best possibility of being approved, our skilled visa staff completes applications after going through a two-stage verification procedure.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prt-stepbox">
+                            <div class="row">
+                                <div class="col-md-6 align-self-center">
+                                    <div class="stepbox-content">
+                                        <div class="stepbox-info">
+                                            <span>Step Five:</span>
+                                            <div class="featured-title"><h3>Book your accommodation and flights</h3></div>
+                                            <div class="prt-box-description">
+                                                <p>
+                                                    Our staff is prepared to assist you choose a suitable place to stay, book a flight to the closest airport, and arrange transfers.
 
-
-
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 align-self-center">
+                                    <div class="prt-box-image">
+                                        <div class="prt-stepbox-image">
+                                            <img class="img-fluid" src="{{asset('uploads/steps/flights.jpg')}}" alt="step-three">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service-type-second-section-end -->
 
 
     <!-- why-us-section -->
-    <section class="prt-row about01-why-us-section prt-bg prt-bgimage-yes bg-img2 bg-base-dark clearfix">
+    {{-- <section class="prt-row about01-why-us-section prt-bg prt-bgimage-yes bg-img2 bg-base-dark clearfix">
         <div class="prt-row-wrapper-bg-layer prt-bg-layer"></div>
         <div class="container">
             <div class="row">
@@ -654,7 +772,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- why-us-section -->
 
     <section class="prt-row home02-service-section bg-layer-equal-height clearfix">

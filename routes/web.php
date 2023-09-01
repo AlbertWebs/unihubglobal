@@ -21,6 +21,3 @@ Route::get('/study-abroad', [App\Http\Controllers\StudyController::class, 'index
 Route::get('/study-abroad/{slung}', [App\Http\Controllers\StudyController::class, 'show'])->name('show-study-aborad');
 Route::get('/study-abroad/{country}/{slung}', [App\Http\Controllers\StudyController::class, 'show_apply'])->name('show-study-aborad-apply');
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
